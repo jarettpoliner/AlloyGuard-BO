@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETED",
+  "config_hash": "b1184b574c4f62c3138fe278a4b2b84afa5874f763f6a2d65be19e10ecc862cc",
+  "dataset_hash": "a9f2b7aaf4b7305535c321bf1354115ac0c157ef1159b23829dff850212ceacd",
+  "source_hash": "c55d6ea7627663d2663772b6cca5f5d5bbe4f0dd5024ca395e2272fb79d9d9d3",
+  "processed_dataset_hash": "9f92eae22b0f957625b58d78372db7acbc9579f33132376c899f261135690ce0",
+  "seed_count": 5,
+  "policies": [
+    "random",
+    "hardness_bo",
+    "cbo",
+    "rc_cbo"
+  ],
+  "selections": 300,
+  "initial_size": 16,
+  "additional_budget": 15,
+  "elapsed_seconds": 2.181907892227173,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "lock_sha256": "f5ea917bffc828771f41f5c87a526aaefd95cba1d5cb62646ac172ca9a271a0a",
+  "artifacts": {
+    "metrics.csv": "24afb6c71fcaedfee49e217f6dde7fc044cfb54ce68c2850dd69fe1fd3863e44",
+    "curves.csv": "369df27efc7cc260112005608391bc0cc405a682bc6141a9c45d35e92cd6941f",
+    "traces.csv": "74b81c20c50b2fd62be8029e3be9bc20bc941ebf12b36835e44c76ae1707cc24",
+    "traces.jsonl": "ce23110b1f3cf19e73ffdb8195b526c42d39a230e8c5e7773b90dca72762418e",
+    "config.yaml": "becea2f75d4073552c1a3f5ac3f689286e9c7f872d336eda07119dbfc5d7b509"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "cases": 80,
+  "feasible": 58,
+  "feasible_fraction": 0.725,
+  "chemistries": 68,
+  "studies": 36,
+  "components": 31,
+  "largest_component": 9,
+  "component_size_counts": {
+    "1": 16,
+    "3": 6,
+    "5": 4,
+    "2": 2,
+    "9": 1,
+    "7": 1,
+    "6": 1
+  },
+  "component_equal_correlation_effective_count": 18.6046511627907,
+  "study_equal_correlation_effective_count": 22.69503546099291,
+  "effective_count_caveat": "Concentration-based count assuming perfect within-group correlation, not an estimated statistical ESS.",
+  "probability_no_initial_feasible": 1.0733311708484447e-08,
+  "random_expected_failures_15": 4.125,
+  "mean_initial_incumbent": 792.76,
+  "maximum_feasible_strength": 1155.0,
+  "initial_incumbent_auc_fraction": 0.8502618889179134,
+  "cbo_auc_fraction_of_unattainable_instant_oracle": 0.8072481000481001,
+  "matched_risk_selections": 435,
+  "risk_decision_count": 450,
+  "risk_different_seeds": [
+    6,
+    15
+  ],
+  "risk_budget_minus_threshold_auc": {
+    "mean": 11.9,
+    "lower95": -12.438232741379169,
+    "upper95": 36.23823274137917,
+    "n": 30
+  },
+  "risk_budget_minus_threshold_failures": {
+    "mean": 0.0,
+    "lower95": 0.0,
+    "upper95": 0.0,
+    "n": 30
+  },
+  "cbo_vs_random_auc": {
+    "mean": 962.4133333333334,
+    "lower95": -101.29600897287219,
+    "upper95": 2026.122675639539,
+    "n": 30
+  },
+  "cbo_vs_random_failures": {
+    "mean": 0.9666666666666667,
+    "lower95": -0.21204159152326285,
+    "upper95": 2.145374924856596,
+    "n": 30
+  }
+}
+Envelope {'5': [{'lower_lambda': 0.0, 'upper_lambda': 329.32333333333287, 'policy': 'cbo'}, {'lower_lambda': 329.32333333333287, 'upper_lambda': None, 'policy': 'risk_budget'}], '10': [{'lower_lambda': 0.0, 'upper_lambda': 434.4342857142859, 'policy': 'cbo'}, {'lower_lambda': 434.4342857142859, 'upper_lambda': 1347.7727272727273, 'policy': 'random'}, {'lower_lambda': 1347.7727272727273, 'upper_lambda': None, 'policy': 'risk_budget'}], '15': [{'lower_lambda': 0.0, 'upper_lambda': 202.5000000000007, 'policy': 'cbo'}, {'lower_lambda': 202.5000000000007, 'upper_lambda': 956.2199999999999, 'policy': 'rc_cbo'}, {'lower_lambda': 956.2199999999999, 'upper_lambda': 1048.7, 'policy': 'cd_risk_threshold'}, {'lower_lambda': 1048.7, 'upper_lambda': None, 'policy': 'risk_budget'}]}
+15-step break-even [('random', 995.6, {'type': 'disjoint_unbounded', 'roots': [-3978.6208725029546, -113.39692019039245], 'scope': 'Unrestricted Fieller ratio set; negative penalties are not operational.'}), ('strength_bo', -343.62631578947367, {'type': 'bounded', 'roots': [-1104.6952003307372, -36.744352680194055], 'scope': 'Unrestricted Fieller ratio set; negative penalties are not operational.'}), ('rc_cbo', 202.5, {'type': 'all_real', 'intervals': []}), ('risk_threshold', 971.1866666666667, {'type': 'bounded', 'roots': [522.9857891951867, 1841.6646033744596], 'scope': 'Unrestricted Fieller ratio set; negative penalties are not operational.'}), ('risk_budget', 965.2366666666668, {'type': 'bounded', 'roots': [522.8621392199566, 1824.5182983163138], 'scope': 'Unrestricted Fieller ratio set; negative penalties are not operational.'}), ('cd_cbo', -788.3297297297297, {'type': 'bounded', 'roots': [-3512.834095448089, -199.50232844510518], 'scope': 'Unrestricted Fieller ratio set; negative penalties are not operational.'}), ('cd_risk_threshold', 939.8347826086957, {'type': 'bounded', 'roots': [381.0409905397621, 2449.13739154917], 'scope': 'Unrestricted Fieller ratio set; negative penalties are not operational.'})]
+Risk break-even by budget [(5, 'risk_threshold', 340.6793103448276), (5, 'risk_budget', 329.3233333333334), (10, 'risk_threshold', 675.2822222222222), (10, 'risk_budget', 652.841304347826), (15, 'risk_threshold', 971.1866666666667), (15, 'risk_budget', 965.2366666666668)]

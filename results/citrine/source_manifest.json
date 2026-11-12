@@ -1,0 +1,42 @@
+{
+  "official_repository": "https://github.com/CitrineInformatics/MPEA_dataset",
+  "upstream_commit": "d31e2510cccc3fb9e79d43ad62652f64ef8c2c5e",
+  "user_upload_commit": "b3d0390f6de21a1989d8f1b934ec608486e878c9",
+  "publication": "Borg et al. (2020), Scientific Data, DOI10.1038/s41597-020-00768-9",
+  "title": "Expanded dataset of mechanical properties and observed phases of multi-principal element alloys",
+  "source_license": "Official Git repository Apache License2.0; full text retained as UPSTREAM_LICENSE. No inference that this changes AlloyGuard's MIT license or the separate Mendeley dataset license.",
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "source_records": [
+    {
+      "filename": "MPEA_dataset.csv",
+      "size_bytes": 332126,
+      "sha256": "c5504d93fd324d1be26cf814d0694ee9ee95578d68a0b38aba6813b939fa2c5d",
+      "git_blob_sha1": "a4542498c5d5af66372d4c99abaeeaa5254a12fe",
+      "upstream_blob_match": true
+    },
+    {
+      "filename": "2018_data.csv",
+      "size_bytes": 57702,
+      "sha256": "9ca3e10ee0d1f9cea064418d2403bcdb3b374d09d387b79696cb56fbf0cf3f46",
+      "git_blob_sha1": "1724b87f4e82c6ee9abed9a97ab945e92f199f92",
+      "upstream_blob_match": true
+    },
+    {
+      "filename": "2019_data.csv",
+      "size_bytes": 110496,
+      "sha256": "6a612639fda0f5d3e84d67df93839bc34d87b3f39f8766ec29da19a8829e579d",
+      "git_blob_sha1": "aee7d343837b5e6b75081443236784745ff93358",
+      "upstream_blob_match": true
+    },
+    {
+      "filename": "wos_query_refs.bib",
+      "size_bytes": 243405,
+      "sha256": "555d4df01fae6ddf13ddd1c0e0120788726e3fee1799f3ebcf5e8368134097e9",
+      "git_blob_sha1": "670023f068c89096d19e7a08f8dd4baffa78a643",
+      "upstream_blob_match": true
+    }
+  ],
+  "source_inspection": "README, utils.py and process.ipynb read as text/JSON only; no upstream code/notebook executed",
+  "retrieval_date_utc": "2026-11-12",
+  "original_files_unchanged": true
+}

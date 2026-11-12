@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the experimental dataset and relevant BO methods when using this benchmark."
+title: "AlloyGuard-BO: a finite-pool retrospective alloy-selection benchmark"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Poliner
+    given-names: Jarett
+license: MIT
+repository-code: "https://github.com/jarettpoliner/AlloyGuard-BO"
+references:
+  - type: article
+    title: "Refractory high entropy alloy dataset with room temperature ductility screening"
+    authors:
+      - family-names: Detor
+        given-names: A.
+      - family-names: Oppenheimer
+        given-names: S.
+      - family-names: Casey
+        given-names: R.
+      - family-names: Crawford
+        given-names: C.
+    year: 2022
+    doi: "10.1016/j.dib.2022.108582"

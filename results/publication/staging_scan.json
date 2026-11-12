@@ -1,0 +1,28 @@
+{
+  "staged_new_or_changed_files": 495,
+  "total_bytes": 108037307,
+  "largest_files": [
+    [
+      12465380,
+      "results/v2/evaluation/primary/traces.jsonl"
+    ],
+    [
+      12465320,
+      "results/v2/reproduction/primary/traces.jsonl"
+    ],
+    [
+      5985464,
+      "results/citrine/reproduced_primary/traces.jsonl"
+    ],
+    [
+      5985374,
+      "results/citrine/primary/traces.jsonl"
+    ],
+    [
+      5985370,
+      "results/citrine/reproduction_entrypoint_checked/traces.jsonl"
+    ]
+  ],
+  "high_confidence_secret_findings": [],
+  "scope": "Token/private-key/credential-URL signatures plus excluded-directory checks; not a guarantee against all sensitive content"
+}

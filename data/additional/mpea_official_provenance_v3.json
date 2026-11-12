@@ -1,0 +1,36 @@
+{
+  "G1a": "COMPLETE_USER_VERIFIED_PROVENANCE_AND_LOCAL_INTEGRITY",
+  "title": "A database of mechanical properties for multi principal element alloys",
+  "authors": [
+    "Zhipeng Li",
+    "Zhuoran Zeng",
+    "Ruijia Tan",
+    "Mitra Taheri",
+    "Nick Birbilis"
+  ],
+  "repository": "Mendeley Data",
+  "dataset_doi": "10.17632/4d4kpfwpf6.1",
+  "official_record": "https://data.mendeley.com/datasets/4d4kpfwpf6/1",
+  "publication_date": "2025-07-29",
+  "version": 1,
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "associated_publication": {
+    "title": "A database of mechanical properties for multi principal element alloys",
+    "journal": "Chemical Data Collections",
+    "volume": 47,
+    "article": "101068",
+    "year": 2023,
+    "doi": "10.1016/j.cdc.2023.101068"
+  },
+  "official_filename": "MPEA_parsed_mechanical_database.xlsx",
+  "local_size_bytes": 282828,
+  "local_sha256": "ba34522f472520f3dd6114f5e3fbddb139b7dba5414b153e6476fe3153f5f25f",
+  "local_md5": "c85db7af18b64a20e0d6cffc8eb09f49",
+  "git_blob": "8dfa71562a028c9a8dfab9ca47e4079dcef65adf",
+  "metadata_evidence": "User independently verified the official Mendeley record and associated publication; accepted as supplied authoritative provenance, not freshly retrieved by the agent",
+  "agent_remote_corroboration": "Official Mendeley URL and publication DOI each returned proxy CONNECT HTTP 403 during this continuation",
+  "source_file_checksum_independently_retrieved": false,
+  "documentation_scope": "User-verified documentation identifies tensile yield strength, tensile elongation, UTS, compressive properties, compositions and processing/heat treatment. Does not supply per-case temperatures or material-state identity.",
+  "acquisition": "Existing original user-uploaded workbook; no substitute dataset or re-download"
+}

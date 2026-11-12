@@ -1,0 +1,88 @@
+{
+  "paired_comparisons": {
+    "cbo_minus_random_auc_mpa_evaluations": {
+      "mean": 962.4133333333334,
+      "lower_95": -101.29600897287219,
+      "upper_95": 2026.122675639539,
+      "n": 30
+    },
+    "cbo_minus_strength_bo_auc_mpa_evaluations": {
+      "mean": 652.89,
+      "lower_95": 73.84449985991819,
+      "upper_95": 1231.9355001400818,
+      "n": 30
+    },
+    "cbo_minus_rc_cbo_auc_mpa_evaluations": {
+      "mean": 6.75,
+      "lower_95": -39.109778885876295,
+      "upper_95": 52.609778885876295,
+      "n": 30
+    },
+    "cbo_minus_random_failure_count": {
+      "mean": 0.9666666666666667,
+      "lower_95": -0.21204159152326285,
+      "upper_95": 2.145374924856596,
+      "n": 30
+    },
+    "cbo_minus_strength_bo_failure_count": {
+      "mean": -1.9,
+      "lower_95": -3.06997393285378,
+      "upper_95": -0.7300260671462195,
+      "n": 30
+    },
+    "cbo_minus_rc_cbo_failure_count": {
+      "mean": 0.03333333333333333,
+      "lower_95": -0.1743004248529738,
+      "upper_95": 0.24096709151964046,
+      "n": 30
+    },
+    "cbo_minus_random_brier": {
+      "mean": 0.008595855566950953,
+      "lower_95": -0.007022417449617645,
+      "upper_95": 0.02421412858351955,
+      "n": 30
+    },
+    "cbo_minus_strength_bo_brier": {
+      "mean": -0.022613306847524627,
+      "lower_95": -0.03631531064241615,
+      "upper_95": -0.008911303052633102,
+      "n": 30
+    },
+    "cbo_minus_rc_cbo_brier": {
+      "mean": 0.0028169536824923977,
+      "lower_95": -0.0015762020785500311,
+      "upper_95": 0.007210109443534826,
+      "n": 30
+    }
+  },
+  "actual_minus_predicted_failures_per_seed": {
+    "cbo": {
+      "mean": -1.4207020132888661,
+      "lower_95": -2.2403822773424866,
+      "upper_95": -0.6010217492352455,
+      "n": 30
+    },
+    "random": {
+      "mean": -1.9516284074301093,
+      "lower_95": -2.563797686116878,
+      "upper_95": -1.3394591287433408,
+      "n": 30
+    },
+    "rc_cbo": {
+      "mean": -1.1534853018208957,
+      "lower_95": -1.873795869637458,
+      "upper_95": -0.4331747340043334,
+      "n": 30
+    },
+    "strength_bo": {
+      "mean": -0.2774809231426852,
+      "lower_95": -0.7788172678456557,
+      "upper_95": 0.22385542156028532,
+      "n": 30
+    }
+  },
+  "cohort_strength_elongation_spearman": -0.7869987249114897,
+  "elongation_skew": 0.6367668526924966,
+  "log1p_elongation_skew": -0.8383421521080996,
+  "interpretation": "Conditional replay variability; repeated cases and adaptive selection. Outcome-conditioned failed probabilities alone are not calibration evidence."
+}

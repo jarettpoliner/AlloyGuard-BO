@@ -1,0 +1,30 @@
+{
+  "revision": "qualification_v2",
+  "status": "BLOCKED_G1_SOURCE_AND_MEASUREMENT_COMPARABILITY",
+  "assessment_config_sha256": "932ebd1360d1ca7de103e1c25a86219208dfe40f5d4276d9b75bf1438aa0f549",
+  "selected_primary": null,
+  "preferred_candidate_pending_qualification": "MPEA_parsed_mechanical_database.xlsx",
+  "decision_basis": "Prespecified provenance/measurement hard gates before class-support/size criteria. No optimization results used.",
+  "rationale": "MPEA has the strongest provisional paired class support and study citations. It cannot yet be declared a tensile room-temperature strength/elongation benchmark. Steel has substantial exact duplication, extreme imbalance and no study IDs; GE uses a different objective/ordinal constraint and remains a separately documented completed benchmark. Citrine input is absent.",
+  "ge_preserved": {
+    "sha256": "a9f2b7aaf4b7305535c321bf1354115ac0c157ef1159b23829dff850212ceacd",
+    "groups": 82,
+    "feasible": 7,
+    "target": "hardness GPa, ordinal screening rank >=3; not merged with MPa/elongation data"
+  },
+  "citrine_status": "NOT_PRESENT_IN_WORKSPACE_OR_SELECTED_REMOTE_TREE",
+  "new_gate_status": {
+    "G1": "BLOCKED",
+    "G2": "NOT_STARTED",
+    "G3": "NOT_STARTED",
+    "G4": "NOT_STARTED",
+    "G5": "NOT_STARTED",
+    "G6": "NOT_STARTED",
+    "G7": "NOT_STARTED",
+    "G8": "NOT_STARTED"
+  },
+  "minimum_next_action": "Supply official source DOI/URL + license/version for MPEA, and data dictionary or primary-publication annotations verifying composition basis, experimental tensile yield/elongation pairing, test temperature and independent processing/test cases. Allow official metadata/publication access if primary sources need retrieval.",
+  "primary_scientific_question": "Can calibrated constrained BO improve discovery of high measured tensile yield strength with measured tensile elongation >=10%? Remains provisional until G1.",
+  "optimization_performance_used_for_dataset_selection": false,
+  "existing_ge_frozen_protocol_modified": false
+}

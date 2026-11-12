@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "policy_budget_seed_rows_checked": 720,
+  "full_budget_matches_frozen_metrics": true,
+  "baseline_matches_v1": true,
+  "prefix_failures_match_decision_labels": true,
+  "fieller_endpoints_match_paired_utility_intervals": true,
+  "protected_files_unchanged": 260,
+  "no_new_models_or_policy_runs": true
+}

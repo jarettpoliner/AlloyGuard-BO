@@ -1,0 +1,72 @@
+{
+  "adapter_hash": "00d34388d62cfe8408d90d843db74b90309557561ac10f5370b33f0b662f9c38",
+  "budget": 15,
+  "calibration": {
+    "enabled": true,
+    "min_observations": 20,
+    "min_per_class": 5,
+    "regularization": 0.05
+  },
+  "cohort_ids_hash": "395a937b7115dbf05b39907259190ef94bcd0b702dcc1d968f39ac3cf60d3185",
+  "config_hash": "fa9b79b69676bc9490adc8d9fcc0d2d128842c1121a2a2913965427c17b63946",
+  "dataset_hash": "9cdedf8fae3154c9d66b5654a961714e3c36fe1b3783610e38436216efa06724",
+  "elongation_threshold_percent": 10.0,
+  "exploration_coefficient": 0.05,
+  "feasibility": {
+    "length_scale": 2.0
+  },
+  "feature_plan": "composition_plus_recipe",
+  "final_protocol_frozen": true,
+  "initial_size": 12,
+  "initialization": "outcome_blind_uniform_without_replacement_matched_across_policies",
+  "interpretation_scope": "EXPLORATORY_RETROSPECTIVE_PUBLISHED_DATA_REPLAY",
+  "lock_hash": "f5ea917bffc828771f41f5c87a526aaefd95cba1d5cb62646ac172ca9a271a0a",
+  "no_feasible_score_mpa": 0.0,
+  "primary_metric": "trapezoid_best_confirmed_feasible_strength_steps_0_to_15",
+  "qualification_hash": "d177c58aa90eb974e935759b46ac98ab100b5c5fbc5bb3dcfbcc43e3893cd7ab",
+  "revision": "citrine_25c_v1",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "sensitivity": {
+    "feature_ablation": "composition_plus_recipe",
+    "initial_sizes": [
+      8,
+      16
+    ],
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104
+    ]
+  },
+  "shift": {
+    "budget": 15,
+    "folds": 3,
+    "group_permutation_seed": 0,
+    "initial_size": 12,
+    "minimum_cases_each_class_each_pool": 2,
+    "minimum_target_cases": 15,
+    "minimum_training_cases": 12,
+    "seeds": [
+      200,
+      201,
+      202,
+      203,
+      204
+    ]
+  },
+  "source_hash": "6abc50d8d407f504c864807c9ac8d263b5607f23bbfbcac6a96529e59ab5ffbd",
+  "strength": {
+    "noise_mpa": 25.0,
+    "target_scale_floor_mpa": 50.0
+  },
+  "support_gate": "minimum15_cases_and3_independent_leakage_groups_per_class_for_calibration",
+  "experiment": "EXPLORATORY_recipe_feature_ablation"
+}

@@ -1,0 +1,23 @@
+{
+  "research_verdict": "INCONCLUSIVE",
+  "reason": "Calibration efficacy is not identifiable: 7 positive composition groups fail predeclared support gate; RC-CBO reduces exactly to CBO.",
+  "cbo_rc_traces_identical": true,
+  "gates": {
+    "G1": "PASSED_WITH_PROVENANCE_QUALIFICATION",
+    "G2": "PASSED",
+    "G3": "PASSED",
+    "G4": "PASSED",
+    "G5": "PASSED",
+    "G6": "PASSED",
+    "G7": "PASSED",
+    "G8": "PASSED"
+  },
+  "final_test_count": 43,
+  "full_reproduction_verified": true,
+  "scientific_limitations": [
+    "Only seven feasible groups; calibration efficacy untested",
+    "OOD_TEST_INSUFFICIENT_SUPPORT",
+    "Publisher/license metadata user-supplied, not independently fetched",
+    "No prospective laboratory validation"
+  ]
+}

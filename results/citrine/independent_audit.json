@@ -1,0 +1,34 @@
+{
+  "status": "PASSED",
+  "audit_scope": "Independent recomputation within this session, not external peer review",
+  "primary_selections_audited": 1800,
+  "runs_recomputed": 120,
+  "full30_seed_reproduction": "ALL_DETERMINISTIC_CONTRACT_FIELDS_AND_NON_TIMING_METRICS_MATCH",
+  "original_master_outcomes_temperature_and_loading_verified": true,
+  "observed_only_grouped_calibration_verified": true,
+  "shift_audits": [
+    {
+      "fold": 0,
+      "selections_audited": 300
+    },
+    {
+      "fold": 1,
+      "selections_audited": 300
+    },
+    {
+      "fold": 2,
+      "selections_audited": 300
+    }
+  ],
+  "ge_and_existing_strength_source_and_lock_unchanged": true,
+  "frozen_methods_changed_after_primary": false,
+  "primary_config_hash": "0d7938858f175c854f1555f88ba0dc983cdff22c505f00bba742d7db50de5011",
+  "adapter_hash": "00d34388d62cfe8408d90d843db74b90309557561ac10f5370b33f0b662f9c38",
+  "scientific_limits": [
+    "80 conservative published reported cases, not independently remeasured trials",
+    "36 literature sources and chemistry dependencies",
+    "replay seeds condition on one finite dataset",
+    "quantitative processing and strain rates incompletely recorded",
+    "no prospective laboratory validation"
+  ]
+}

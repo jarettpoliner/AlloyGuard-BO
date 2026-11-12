@@ -1,0 +1,118 @@
+{
+  "adapter_hash": "00d34388d62cfe8408d90d843db74b90309557561ac10f5370b33f0b662f9c38",
+  "budget": 15,
+  "calibration": {
+    "enabled": true,
+    "min_observations": 20,
+    "min_per_class": 5,
+    "regularization": 0.05
+  },
+  "cohort_ids_hash": "395a937b7115dbf05b39907259190ef94bcd0b702dcc1d968f39ac3cf60d3185",
+  "config_hash": "af48eaa4107a02f6e0ebf109a7f08c2996bbdca93b7838ec9073ad3d2bb2ba00",
+  "dataset_hash": "9cdedf8fae3154c9d66b5654a961714e3c36fe1b3783610e38436216efa06724",
+  "elongation_threshold_percent": 10.0,
+  "exploration_coefficient": 0.05,
+  "feasibility": {
+    "length_scale": 2.0
+  },
+  "feature_plan": "composition_only",
+  "final_protocol_frozen": true,
+  "initial_size": 12,
+  "initialization": "outcome_blind_uniform_without_replacement_matched_across_policies",
+  "interpretation_scope": "EXPLORATORY_RETROSPECTIVE_PUBLISHED_DATA_REPLAY",
+  "lock_hash": "f5ea917bffc828771f41f5c87a526aaefd95cba1d5cb62646ac172ca9a271a0a",
+  "no_feasible_score_mpa": 0.0,
+  "primary_metric": "trapezoid_best_confirmed_feasible_strength_steps_0_to_15",
+  "qualification_hash": "d177c58aa90eb974e935759b46ac98ab100b5c5fbc5bb3dcfbcc43e3893cd7ab",
+  "revision": "v2_risk_continuous_exploratory",
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "sensitivity": {
+    "feature_ablation": "composition_plus_recipe",
+    "initial_sizes": [
+      8,
+      16
+    ],
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104
+    ]
+  },
+  "shift": {
+    "budget": 15,
+    "folds": 3,
+    "group_permutation_seed": 0,
+    "initial_size": 12,
+    "minimum_cases_each_class_each_pool": 2,
+    "minimum_target_cases": 15,
+    "minimum_training_cases": 12,
+    "seeds": [
+      200,
+      201,
+      202,
+      203,
+      204
+    ]
+  },
+  "source_hash": "6abc50d8d407f504c864807c9ac8d263b5607f23bbfbcac6a96529e59ab5ffbd",
+  "strength": {
+    "noise_mpa": 25.0,
+    "target_scale_floor_mpa": 50.0
+  },
+  "support_gate": "minimum15_cases_and3_independent_leakage_groups_per_class_for_calibration",
+  "policies": [
+    "random",
+    "strength_bo",
+    "cbo",
+    "rc_cbo",
+    "risk_threshold",
+    "risk_budget",
+    "cd_cbo",
+    "cd_risk_threshold"
+  ],
+  "risk": {
+    "minimum_probability": 0.75,
+    "total_budget": 3.75
+  },
+  "ductility": {
+    "log_noise": 0.15,
+    "log_scale_floor": 0.5
+  },
+  "goals": {
+    "failure_ratio_max": 0.85,
+    "auc_ratio_min": 0.98
+  },
+  "parameter_selection": "FIXED_ENGINEERING_ASSUMPTIONS_NO_SEARCH",
+  "frozen_at": "2026-11-12T06:43:15.758409+00:00",
+  "frozen_files": {
+    "configs/v2/protocol.md": "641a85bb064ded91d841869e09ac7e47dd116ec7b9df31aea75eadb29d846207",
+    "requirements.lock": "f5ea917bffc828771f41f5c87a526aaefd95cba1d5cb62646ac172ca9a271a0a",
+    "results/citrine/cohort.csv": "9cdedf8fae3154c9d66b5654a961714e3c36fe1b3783610e38436216efa06724",
+    "results/citrine/feature_schema.json": "f12d91a7237b5da2dad375281d9ffdcab076d2b468530210d99c322ab5f70cb6",
+    "scripts/run_v2.py": "8bee4f1c955faf55dc09e03a47f9ca0cf9a284dcbf320bd2fa855db4ac147224",
+    "src/alloyguard_citrine/__init__.py": "78f0eacceae6f9c6ae125d1746f3fa5567af67df5e89eeac9a6ae7f4ec109d47",
+    "src/alloyguard_citrine/data.py": "2f2b73daeaa5072857054be0820aa1d26c1adbed1f1092d62537b323afe86836",
+    "src/alloyguard_citrine/experiment.py": "866dfaf9c22b69891cc153062624a3085a6ca247037bf5fb71c532e0ee371da9",
+    "src/alloyguard_citrine/reporting.py": "29643fb50e6eb9713a333019f70ae7c507b342a6bb98dc69334f050c09821905",
+    "src/alloyguard_strength/__init__.py": "2e844c5f8dfe4c9752116c221bfe0fac7e26d2d50625ad8e6429c021c32b1342",
+    "src/alloyguard_strength/calibration.py": "bb518684dae193217884ec407288deb1957d1490be53273049f71ace6f689d20",
+    "src/alloyguard_strength/cohort.py": "7fb0c6d7dea4558c2f0ea4df5afb19e4a1c532a48e3953e288dd3d70741ee09a",
+    "src/alloyguard_strength/models.py": "1d75939957e1b54ea9bd8a5eaf84e9f87a4707440b6f4ef46d71e8b8785c5d90",
+    "src/alloyguard_strength/policies.py": "de1e43260fb488dfe634491654a76a882ab3f214084e7c382e7dd4b4b581cf1f",
+    "src/alloyguard_strength/replay.py": "b1340b7d330a50b9bc99dbdd50fb77e9bb049ce4fac0b16befed4d847bfb3796",
+    "src/alloyguard_strength/reporting.py": "d96604fdbc2560eba92943a6902c369e586aa70c17c70fc46a4a9eedee774a3a",
+    "src/alloyguard_strength/schema.py": "5080b97716315cdbac93d4f8bdbcae2aebd1687ac5efd5eb1ae2edd69cee16f7",
+    "src/alloyguard_v2/__init__.py": "e34aae84c2f33519c76ec3c5dc3c24a10d33870584955abbe6f66311a792b16c",
+    "src/alloyguard_v2/policies.py": "373fab76424f39ffde8175e2a755d7f1753e124a21fbc17a8672927fd479e6a4",
+    "src/alloyguard_v2/replay.py": "d25ed87b740292127e9c4a3ca9f0968b7bb110585249f70b416499681bc2c06f",
+    "tests/test_v2.py": "af96278d817f25d7a3e696864a427dc7f3dfd4b8d1f259d06846b799b7609f38"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "date_utc": "2026-11-12",
+  "observed_attempts": [
+    {"url": "https://data.mendeley.com/datasets/4d4kpfwpf6/1", "result": "Proxy CONNECT HTTP 403", "curl_exit": 56},
+    {"url": "https://doi.org/10.1016/j.cdc.2023.101068", "result": "Proxy CONNECT HTTP 403", "curl_exit": 56}
+  ],
+  "primary_papers": "Not retrieved; prioritized-source review remains incomplete. No unsupported claim of reading methods or resolving the conflicting key.",
+  "runtime_policy": "Current observations; restricted policy enforced; no applied custom domains at latest refresh",
+  "draft": "Source access domain additions saved successfully, preserving previous domains and presets; not applied or published by draft save",
+  "G1a": "Complete using user independently verified official source metadata and checked local upload identity",
+  "remaining_scope": "Case-level original-publication test conditions/material-state/replicate evidence for a defensible primary cohort; not dataset-level provenance"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "fold": "group_0",
+    "training_cases": 46,
+    "target_cases": 34,
+    "training_feasible": 28,
+    "target_feasible": 30,
+    "training_components": 20,
+    "target_components": 11,
+    "disjoint_components": true,
+    "exhausted_target_pool": false
+  },
+  {
+    "fold": "group_1",
+    "training_cases": 65,
+    "target_cases": 15,
+    "training_feasible": 48,
+    "target_feasible": 10,
+    "training_components": 21,
+    "target_components": 10,
+    "disjoint_components": true,
+    "exhausted_target_pool": true
+  },
+  {
+    "fold": "group_2",
+    "training_cases": 49,
+    "target_cases": 31,
+    "training_feasible": 40,
+    "target_feasible": 18,
+    "training_components": 21,
+    "target_components": 10,
+    "disjoint_components": true,
+    "exhausted_target_pool": false
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "status": "PASSED",
+  "purpose": "software verification only, not experimental evidence",
+  "known_noiseless_feasible_optimum_gpa": 6.487179487179487,
+  "known_unconstrained_optimum_gpa": 11.0,
+  "noise_seed": 333,
+  "policies": {
+    "random": {
+      "selections": 8,
+      "deterministic": true
+    },
+    "hardness_bo": {
+      "selections": 8,
+      "deterministic": true
+    },
+    "cbo": {
+      "selections": 8,
+      "deterministic": true
+    },
+    "rc_cbo": {
+      "selections": 8,
+      "deterministic": true
+    }
+  }
+}

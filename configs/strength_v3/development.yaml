@@ -1,0 +1,22 @@
+revision: strength_v3_development
+status: PROVISIONAL_SOFTWARE_VALIDATION_NOT_FINAL_SCIENTIFIC_PROTOCOL
+elongation_threshold_percent: 10.0
+initial_size: 24
+budget: 3
+seeds: [700, 701, 702, 703, 704]
+exploration_coefficient: 0.05
+strength:
+  noise_mpa: 25.0
+  target_scale_floor_mpa: 50.0
+feasibility:
+  length_scale: 2.0
+calibration:
+  enabled: true
+  min_observations: 20
+  min_per_class: 5
+  regularization: 0.05
+calibration_groups: connected_study_or_reported_composition_overlap
+primary_metric: trapezoid_best_observed_feasible_yield_strength_mpa_evaluations
+no_feasible_score_mpa: 0.0
+feature_plan: reported_composition_only_no_phases_or_other_measured_properties
+final_protocol_frozen: false

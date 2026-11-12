@@ -1,0 +1,932 @@
+{
+  "status": "PROVISIONAL_CANDIDATE_NOT_QUALIFIED",
+  "raw_records": 1713,
+  "numeric_paired_records": 457,
+  "numeric_physically_valid_paired_records": 457,
+  "provisional_feasible_records": 341,
+  "provisional_infeasible_records": 116,
+  "missing_values_by_column": {
+    "__excel_row": 0,
+    "__blank_1": 0,
+    "Composition": 0,
+    "Phases present": 150,
+    "Hardness (HVN)": 753,
+    "Yield Strength (MPa)": 1065,
+    "Ultimate Tensile Strength (MPa)": 1254,
+    "Elongation (%)": 1227,
+    "Compressive strength (MPa)": 1243,
+    "Plasticity (%) - Compressive": 1285,
+    "Note on any unqiue processing or data features": 561,
+    "Source": 0,
+    "FCC": 0,
+    "BCC": 0,
+    "HCP": 0,
+    "IM": 0,
+    "Ag": 0,
+    "Al": 0,
+    "B": 0,
+    "C": 0,
+    "Ca": 0,
+    "Co": 0,
+    "Cr": 0,
+    "Cu": 0,
+    "Fe": 0,
+    "Ga": 0,
+    "Ge": 0,
+    "Hf": 0,
+    "Li": 0,
+    "Mg": 0,
+    "Mn": 0,
+    "Mo": 0,
+    "N": 0,
+    "Nb": 0,
+    "Nd": 0,
+    "Ni": 0,
+    "Pd": 0,
+    "Re": 0,
+    "Sc": 0,
+    "Si": 0,
+    "Sn": 0,
+    "Ta": 0,
+    "Ti": 0,
+    "V": 0,
+    "W": 0,
+    "Y": 0,
+    "Zn": 0,
+    "Zr": 0
+  },
+  "columns": [
+    "__excel_row",
+    "__blank_1",
+    "Composition",
+    "Phases present",
+    "Hardness (HVN)",
+    "Yield Strength (MPa)",
+    "Ultimate Tensile Strength (MPa)",
+    "Elongation (%)",
+    "Compressive strength (MPa)",
+    "Plasticity (%) - Compressive",
+    "Note on any unqiue processing or data features",
+    "Source",
+    "FCC",
+    "BCC",
+    "HCP",
+    "IM",
+    "Ag",
+    "Al",
+    "B",
+    "C",
+    "Ca",
+    "Co",
+    "Cr",
+    "Cu",
+    "Fe",
+    "Ga",
+    "Ge",
+    "Hf",
+    "Li",
+    "Mg",
+    "Mn",
+    "Mo",
+    "N",
+    "Nb",
+    "Nd",
+    "Ni",
+    "Pd",
+    "Re",
+    "Sc",
+    "Si",
+    "Sn",
+    "Ta",
+    "Ti",
+    "V",
+    "W",
+    "Y",
+    "Zn",
+    "Zr"
+  ],
+  "element_columns": [
+    "Ag",
+    "Al",
+    "B",
+    "C",
+    "Ca",
+    "Co",
+    "Cr",
+    "Cu",
+    "Fe",
+    "Ga",
+    "Ge",
+    "Hf",
+    "Li",
+    "Mg",
+    "Mn",
+    "Mo",
+    "N",
+    "Nb",
+    "Nd",
+    "Ni",
+    "Pd",
+    "Re",
+    "Sc",
+    "Si",
+    "Sn",
+    "Ta",
+    "Ti",
+    "V",
+    "W",
+    "Y",
+    "Zn",
+    "Zr"
+  ],
+  "yield_strength_paired_range_mpa": [
+    62.0,
+    2663.0
+  ],
+  "elongation_paired_range_percent": [
+    0.0,
+    98.0
+  ],
+  "exact_duplicate_rows_excluding_record_id_all": 1,
+  "exact_duplicate_rows_excluding_record_id_paired": 0,
+  "unique_composition_strings_paired": 330,
+  "unique_rounded_numeric_compositions_paired": 310,
+  "unique_composition_processing_study_proxies": 455,
+  "ambiguous_same_case_proxy_records": 4,
+  "independent_case_count": null,
+  "independent_feasible_class_counts": null,
+  "composition_fraction_status": "Numerical columns are fraction-like and rounded to ~3 decimals; atomic versus mass basis not independently documented. No normalization or unit reinterpretation performed.",
+  "composition_sum_all_range": [
+    0.775,
+    1.003
+  ],
+  "composition_sum_paired_range": [
+    0.997,
+    1.0020000000000002
+  ],
+  "paired_missing_composition_records": 0,
+  "paired_negative_composition_records": 0,
+  "all_records_composition_sum_deviation_gt_0_02": 9,
+  "paired_records_composition_sum_deviation_gt_0_005": 0,
+  "simulation_marked_records_whole_workbook": 7,
+  "simulation_marked_records_numeric_pair_subset": 0,
+  "paired_records_also_reporting_compressive_strength": 4,
+  "paired_records_also_reporting_ultimate_tensile_strength": 316,
+  "blank_processing_notes_paired": 82,
+  "raw_citation_count_paired": 138,
+  "normalized_study_doi_count_paired": 135,
+  "unparseable_study_citations_paired": 0,
+  "explicitly_verified_tensile_room_temperature_pairs": 0,
+  "verified_test_temperature_column_present": false,
+  "study_and_rounded_composition_components": [
+    {
+      "component": 0,
+      "rows": 63,
+      "feasible": 50,
+      "infeasible": 13,
+      "studies": 12
+    },
+    {
+      "component": 1,
+      "rows": 49,
+      "feasible": 42,
+      "infeasible": 7,
+      "studies": 9
+    },
+    {
+      "component": 2,
+      "rows": 36,
+      "feasible": 21,
+      "infeasible": 15,
+      "studies": 1
+    },
+    {
+      "component": 3,
+      "rows": 17,
+      "feasible": 14,
+      "infeasible": 3,
+      "studies": 3
+    },
+    {
+      "component": 4,
+      "rows": 8,
+      "feasible": 6,
+      "infeasible": 2,
+      "studies": 2
+    },
+    {
+      "component": 5,
+      "rows": 8,
+      "feasible": 2,
+      "infeasible": 6,
+      "studies": 2
+    },
+    {
+      "component": 6,
+      "rows": 8,
+      "feasible": 5,
+      "infeasible": 3,
+      "studies": 1
+    },
+    {
+      "component": 7,
+      "rows": 8,
+      "feasible": 5,
+      "infeasible": 3,
+      "studies": 3
+    },
+    {
+      "component": 8,
+      "rows": 8,
+      "feasible": 8,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 9,
+      "rows": 6,
+      "feasible": 5,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 10,
+      "rows": 6,
+      "feasible": 6,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 11,
+      "rows": 6,
+      "feasible": 2,
+      "infeasible": 4,
+      "studies": 1
+    },
+    {
+      "component": 12,
+      "rows": 6,
+      "feasible": 3,
+      "infeasible": 3,
+      "studies": 2
+    },
+    {
+      "component": 13,
+      "rows": 6,
+      "feasible": 6,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 14,
+      "rows": 6,
+      "feasible": 6,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 15,
+      "rows": 5,
+      "feasible": 3,
+      "infeasible": 2,
+      "studies": 1
+    },
+    {
+      "component": 16,
+      "rows": 5,
+      "feasible": 4,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 17,
+      "rows": 5,
+      "feasible": 4,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 18,
+      "rows": 5,
+      "feasible": 3,
+      "infeasible": 2,
+      "studies": 1
+    },
+    {
+      "component": 19,
+      "rows": 5,
+      "feasible": 3,
+      "infeasible": 2,
+      "studies": 1
+    },
+    {
+      "component": 20,
+      "rows": 5,
+      "feasible": 5,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 21,
+      "rows": 5,
+      "feasible": 5,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 22,
+      "rows": 5,
+      "feasible": 5,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 23,
+      "rows": 5,
+      "feasible": 0,
+      "infeasible": 5,
+      "studies": 1
+    },
+    {
+      "component": 24,
+      "rows": 5,
+      "feasible": 3,
+      "infeasible": 2,
+      "studies": 1
+    },
+    {
+      "component": 25,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 26,
+      "rows": 4,
+      "feasible": 1,
+      "infeasible": 3,
+      "studies": 2
+    },
+    {
+      "component": 27,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 28,
+      "rows": 4,
+      "feasible": 0,
+      "infeasible": 4,
+      "studies": 1
+    },
+    {
+      "component": 29,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 30,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 31,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 2
+    },
+    {
+      "component": 32,
+      "rows": 4,
+      "feasible": 2,
+      "infeasible": 2,
+      "studies": 1
+    },
+    {
+      "component": 33,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 34,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 35,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 36,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 37,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 38,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 39,
+      "rows": 4,
+      "feasible": 4,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 40,
+      "rows": 3,
+      "feasible": 3,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 41,
+      "rows": 3,
+      "feasible": 3,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 42,
+      "rows": 3,
+      "feasible": 1,
+      "infeasible": 2,
+      "studies": 1
+    },
+    {
+      "component": 43,
+      "rows": 3,
+      "feasible": 2,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 44,
+      "rows": 3,
+      "feasible": 0,
+      "infeasible": 3,
+      "studies": 1
+    },
+    {
+      "component": 45,
+      "rows": 3,
+      "feasible": 0,
+      "infeasible": 3,
+      "studies": 1
+    },
+    {
+      "component": 46,
+      "rows": 3,
+      "feasible": 2,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 47,
+      "rows": 3,
+      "feasible": 3,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 48,
+      "rows": 3,
+      "feasible": 1,
+      "infeasible": 2,
+      "studies": 2
+    },
+    {
+      "component": 49,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 50,
+      "rows": 2,
+      "feasible": 0,
+      "infeasible": 2,
+      "studies": 1
+    },
+    {
+      "component": 51,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 52,
+      "rows": 2,
+      "feasible": 1,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 53,
+      "rows": 2,
+      "feasible": 1,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 54,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 55,
+      "rows": 2,
+      "feasible": 1,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 56,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 57,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 58,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 2
+    },
+    {
+      "component": 59,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 60,
+      "rows": 2,
+      "feasible": 1,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 61,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 62,
+      "rows": 2,
+      "feasible": 0,
+      "infeasible": 2,
+      "studies": 2
+    },
+    {
+      "component": 63,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 64,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 65,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 66,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 67,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 68,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 69,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 70,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 71,
+      "rows": 2,
+      "feasible": 0,
+      "infeasible": 2,
+      "studies": 1
+    },
+    {
+      "component": 72,
+      "rows": 2,
+      "feasible": 2,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 73,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 74,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 75,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 76,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 77,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 78,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 79,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 80,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 81,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 82,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 83,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 84,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 85,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 86,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 87,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 88,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 89,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 90,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 91,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 92,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 93,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 94,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 95,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 96,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 97,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 98,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 99,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 100,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 101,
+      "rows": 1,
+      "feasible": 0,
+      "infeasible": 1,
+      "studies": 1
+    },
+    {
+      "component": 102,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    },
+    {
+      "component": 103,
+      "rows": 1,
+      "feasible": 1,
+      "infeasible": 0,
+      "studies": 1
+    }
+  ],
+  "component_caution": "Transitive study OR rounded chemistry overlap is conservative; rounded fractions can alias real compositions and generic processing notes do not prove independent experiments. Not a final split or independence count.",
+  "feature_exclusions": [
+    "Phases present",
+    "FCC",
+    "BCC",
+    "HCP",
+    "IM",
+    "Hardness (HVN)",
+    "Ultimate Tensile Strength (MPa)",
+    "Compressive strength (MPa)",
+    "Plasticity (%) - Compressive",
+    "Source"
+  ],
+  "blockers": [
+    "Dataset publication/official record/version/license not supplied or embedded",
+    "No explicit test temperature field; processing temperatures cannot be treated as test temperatures",
+    "Paired tensile loading and yield/elongation test-case correspondence need primary-source confirmation",
+    "At least one composition-processing-study proxy has conflicting measurements and unknown replicate/condition identity",
+    "Composition fraction basis and source rounding require documentation"
+  ],
+  "no_new_models_or_benchmarks_run": true
+}

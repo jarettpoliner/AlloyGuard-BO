@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Cite this repository and the experimental dataset; this benchmark reports negative and trade-off results."
+title: "AlloyGuard-BO: reproducible alloy-selection experiments with negative and risk-discovery trade-off results"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Poliner
+    given-names: Jarett
+license: MIT
+repository-code: "https://github.com/jarettpoliner/AlloyGuard-BO"
+keywords:
+  - Bayesian optimization
+  - materials science
+  - reproducibility
+  - constrained optimization
+references:
+  - type: article
+    title: "Expanded dataset of mechanical properties and observed phases of multi-principal element alloys"
+    authors:
+      - family-names: Borg
+    year: 2020
+    journal: Scientific Data
+    doi: "10.1038/s41597-020-00768-9"
+  - type: article
+    title: "Refractory high entropy alloy dataset with room temperature ductility screening"
+    authors:
+      - family-names: Detor
+    year: 2022
+    journal: Data in Brief
+    doi: "10.1016/j.dib.2022.108582"

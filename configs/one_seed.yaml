@@ -1,0 +1,38 @@
+budget: 15
+calibration:
+  dataset_min_per_class: 15
+  enabled: false
+  min_observations: 20
+  min_per_class: 5
+  regularization: 0.05
+exploration_coefficient: 0.05
+feasibility:
+  length_scale: 2.0
+  max_iter_predict: 100
+hardness:
+  maxiter: 60
+  observation_noise_gpa: 0.15
+initial_size: 12
+initialization: outcome_blind_uniform_without_replacement
+no_feasible_score_gpa: 0.0
+ood:
+  clusters: 3
+  minimum_target_feasible: 4
+  minimum_target_size: 15
+  minimum_train_feasible: 4
+  random_state: 0
+primary_metric: trapezoid_auc_steps_0_to_15_gpa_evaluations
+protocol_revision: 1
+seeds:
+- 314
+sensitivity_initial_sizes:
+- 8
+- 16
+sensitivity_seeds:
+- 100
+- 101
+- 102
+- 103
+- 104
+support_distance: 0.35
+threshold: 3

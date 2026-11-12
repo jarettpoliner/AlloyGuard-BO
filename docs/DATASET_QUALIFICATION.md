@@ -1,0 +1,13 @@
+# Strength/elongation extension: qualification before modeling
+
+The new request is a separately labeled scientific study. It does not revise or overwrite the original GE hardness/ordinal-rank benchmark. See the [current qualification report](../results/dataset_qualification/REPORT.md), [machine-readable decision](../results/dataset_qualification/primary_dataset_decision.json), and [prespecified assessment](../configs/dataset_qualification_v2.yaml).
+
+The raw preliminary counts were confirmed, but the larger MPEA paired sample does not by itself establish compatible tensile tests, common temperature, independent observations or lawful source attribution. MPEA is the strongest provisional candidate. Steel has extensive exact duplication and only 32 below-threshold distinct full records after exact deduplication. Citrine is absent. Selection criteria are scientific provenance/measurement gates, independent class support, study grouping and known pre-experiment features; no optimization results are used.
+
+A 10% tensile-elongation constraint and maximum measured tensile yield strength are proposed. The initial target stratum is documented 20–30 °C tensile experiments, with same-case paired properties. Unknown temperature/loading is unresolved, not silently accepted or deleted in a way that pretends eligibility was established. A different justified stratum may be explicitly declared before modeling once documentation is available. The row audits retain all unresolved cases.
+
+Sources should establish: official record/publication, dataset version and license, composition units, measurement definitions, tensile rather than compressive yield strength, same-case yield/elongation pairing, actual test temperature, and processing/replicate identity. The [study review queue](../results/dataset_qualification/mpea_study_review_queue.csv) identifies 135 normalized DOI citation groups. Citation groups may themselves refer to aggregate databases rather than independent original studies.
+
+Measured phase labels, property-derived features and undocumented clusters are excluded from the proposed predictor set. Only source-verified composition and planned processing information can enter. Canonical composition–processing–test cases must not cross observed/hidden boundaries; study-disjoint and chemistry-disjoint diagnostics will be designed before new comparisons. No models are adapted to MPa or to the larger element palette before new G1 passes.
+
+**New G1: BLOCKED_SOURCE_AND_MEASUREMENT_COMPARABILITY. New G2–G8: NOT_STARTED.** The previous GE G1–G8 evidence remains intact and is not claimed as validation of the strength/elongation objective.

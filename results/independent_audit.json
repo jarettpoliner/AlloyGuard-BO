@@ -1,0 +1,27 @@
+{
+  "status": "PASSED",
+  "audit_type": "independent recomputation and skeptical source review within same implementation session; not external peer review",
+  "selections_audited": 1800,
+  "recomputed_runs": 120,
+  "protocol_hash": "fe5fe4829880e29676d481143fbb12b106b2326839a3fa7802f776f7ae36a94d",
+  "source_hash": "c55d6ea7627663d2663772b6cca5f5d5bbe4f0dd5024ca395e2272fb79d9d9d3",
+  "findings": [
+    "Raw MD5/size/SHA-256 consistent; official metadata/licensing user-supplied rather than independently fetched",
+    "Exact duplicate groups kept together; target units and aggregation explicit",
+    "Policy boundary exposes only compositions and observed targets, no oracle reference",
+    "Recorded training IDs equal exactly the revealed set before every selection",
+    "All recorded outcomes and AUC/failure metrics match independent raw-data recomputation",
+    "CBO and gated RC-CBO decisions, probabilities and acquisition values exactly equal",
+    "No calibration efficacy inference possible; sparse-class support limitation is retained",
+    "No prospective discovery, synthesis-success or proprietary-system superiority claim supported"
+  ],
+  "remaining_scientific_limitations": [
+    "Seven feasible groups only",
+    "Overlapping finite-pool replays",
+    "No prospective laboratory validation",
+    "Full source documents not independently fetched"
+  ],
+  "reproduction": "FULL_30_SEED_EXACT_DECISIONS_AND_FORECASTS_MATCH",
+  "diagnostic_reproduction": "BOTH_SENSITIVITIES_AND_COMPOSITION_SHIFT_SUPPORT_MATCH",
+  "methodology_changed_after_primary": false
+}

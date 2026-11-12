@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "v1_preserved_files": 170,
+  "audited_selections": 7800,
+  "audited_runs": 520,
+  "exact_v1_baseline_selections": 1800,
+  "reproduced_primary_selections": 3600,
+  "frozen_config_hash": "d36b8a61b60a4e059deac60fe15ed51cc0751b90ead728be269a44a5d49dfceb",
+  "scope": "Independent verification code path, not external human review",
+  "limitations": [
+    "Seed intervals condition on reused cohort",
+    "Acquisition correctness checked by unit tests and full deterministic reproduction; trace audit does not independently refit every GP",
+    "No independent alloy dataset",
+    "Risk-budget feasibility can be impossible and overruns remain recorded"
+  ]
+}

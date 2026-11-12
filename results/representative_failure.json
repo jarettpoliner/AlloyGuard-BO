@@ -1,0 +1,87 @@
+{
+  "acquisition_score": 1.2151769420574066,
+  "active_constraints": "none",
+  "alloy_id": "alloy-3f825f09aa08b905",
+  "calibrated_acquisition_winner": "alloy-3f825f09aa08b905",
+  "calibration_status": "NOT_APPLIED",
+  "candidate_support_diagnostic": "DISTANT_FROM_OBSERVATIONS",
+  "composition_atomic_fractions": [
+    0.33333333330000003,
+    0.0,
+    0.0,
+    0.33333333330000003,
+    0.33333333330000003,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "constrained_expected_improvement": 0.08679835300410046,
+  "dataset_hash": "a9f2b7aaf4b7305535c321bf1354115ac0c157ef1159b23829dff850212ceacd",
+  "expected_improvement": 1.2151769420574066,
+  "feasibility_probability_calibrated": 0.07142857142857142,
+  "feasibility_probability_raw": 0.07142857142857142,
+  "fit_diagnostics": {
+    "calibration": {},
+    "calibration_folds": [],
+    "feasibility": {
+      "class_counts": [
+        12,
+        0
+      ],
+      "status": "SINGLE_CLASS_SMOOTHED_PRIOR",
+      "warnings": []
+    },
+    "fit_seconds": 0.005435719999695721,
+    "hardness": {
+      "kernel": "1.77**2 * Matern(length_scale=6, nu=2.5)",
+      "noise_gpa": 0.15,
+      "optimizer": [
+        {
+          "iterations": 8,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "success": true
+        }
+      ],
+      "status": "FIT",
+      "warnings": [
+        "The optimal value found for dimension 0 of parameter k2__length_scale is close to the specified upper bound 6.0. Increasing the bound and calling fit again may find a better value."
+      ]
+    },
+    "maximum_candidate_score": 1.2151769420574066,
+    "minimum_candidate_score": 1.543693495280669e-14,
+    "observed_ids": [
+      "alloy-5a5a71dc2e4c755c",
+      "alloy-798d26587cbf782d",
+      "alloy-c1f6a7818f47c3b7",
+      "alloy-cb92a0a14186a842",
+      "alloy-12c5d773ca69c4b0",
+      "alloy-c334319443d1f8a5",
+      "alloy-3271b0821bdf27c5",
+      "alloy-b10792b0594b2ea9",
+      "alloy-688c84f8c35d3b86",
+      "alloy-794aa6a051c3cca7",
+      "alloy-4ed45e5272c8076d",
+      "alloy-89467b000bf14127"
+    ]
+  },
+  "hardness_mean_gpa": 12.093615704004268,
+  "hardness_observation_std_gpa": 1.6957524223304885,
+  "hardness_prediction_interval": [
+    8.76994095623651,
+    15.417290451772026
+  ],
+  "hardness_std_gpa": 1.6891051707456584,
+  "measured_ductility_rank": 0,
+  "measured_feasible": false,
+  "measured_hardness_gpa": 10.5994056,
+  "model_config_hash": "fe5fe4829880e29676d481143fbb12b106b2326839a3fa7802f776f7ae36a94d",
+  "nearest_observed_distance": 0.3651483716335959,
+  "policy_name": "hardness_bo",
+  "raw_acquisition_winner": "alloy-3f825f09aa08b905",
+  "seed": 26,
+  "selection_rationale": "HARDNESS_IMPROVEMENT",
+  "selection_step": 1,
+  "temperature": 1.0,
+  "training_observation_count": 12
+}

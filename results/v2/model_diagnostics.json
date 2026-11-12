@@ -1,0 +1,82 @@
+{
+  "cbo": {
+    "fallback_selections": 0,
+    "mean_predicted_risk_spent": 6.687368679955526,
+    "mean_realized_failures": 5.266666666666667,
+    "budget_overrun_seeds": 30,
+    "strength_warnings": 198,
+    "feasibility_warnings": 0,
+    "failed_mean_probability": 0.5214805697510766
+  },
+  "cd_cbo": {
+    "fallback_selections": 0,
+    "mean_predicted_risk_spent": 5.569507734091685,
+    "mean_realized_failures": 6.5,
+    "budget_overrun_seeds": 27,
+    "strength_warnings": 164,
+    "feasibility_warnings": 177,
+    "failed_mean_probability": 0.6225103584035264,
+    "ductility_95_coverage": 0.7844444444444445,
+    "log_z_mean": -0.1999608280615482,
+    "log_z_std": 1.8319599973405372,
+    "mean_negative_mass": 0.010565759216544434
+  },
+  "cd_risk_threshold": {
+    "fallback_selections": 56,
+    "mean_predicted_risk_spent": 2.638298829141107,
+    "mean_realized_failures": 3.7333333333333334,
+    "budget_overrun_seeds": 0,
+    "strength_warnings": 132,
+    "feasibility_warnings": 131,
+    "failed_mean_probability": 0.8015651211077949,
+    "ductility_95_coverage": 0.8622222222222222,
+    "log_z_mean": -0.2270702657851522,
+    "log_z_std": 1.5013080463820891,
+    "mean_negative_mass": 0.0018041344924587394
+  },
+  "random": {
+    "fallback_selections": 0,
+    "mean_predicted_risk_spent": 6.251628407430105,
+    "mean_realized_failures": 4.3,
+    "budget_overrun_seeds": 30,
+    "strength_warnings": 281,
+    "feasibility_warnings": 0,
+    "failed_mean_probability": 0.5572726266059543
+  },
+  "rc_cbo": {
+    "fallback_selections": 0,
+    "mean_predicted_risk_spent": 6.386818635154223,
+    "mean_realized_failures": 5.233333333333333,
+    "budget_overrun_seeds": 30,
+    "strength_warnings": 198,
+    "feasibility_warnings": 0,
+    "failed_mean_probability": 0.5345571860574025
+  },
+  "risk_budget": {
+    "fallback_selections": 442,
+    "mean_predicted_risk_spent": 5.059830805979042,
+    "mean_realized_failures": 3.2666666666666666,
+    "budget_overrun_seeds": 30,
+    "strength_warnings": 269,
+    "feasibility_warnings": 0,
+    "failed_mean_probability": 0.6859126037255654
+  },
+  "risk_threshold": {
+    "fallback_selections": 441,
+    "mean_predicted_risk_spent": 5.070528544457184,
+    "mean_realized_failures": 3.2666666666666666,
+    "budget_overrun_seeds": 30,
+    "strength_warnings": 267,
+    "feasibility_warnings": 0,
+    "failed_mean_probability": 0.6850819891065472
+  },
+  "strength_bo": {
+    "fallback_selections": 0,
+    "mean_predicted_risk_spent": 7.4441475898093445,
+    "mean_realized_failures": 7.166666666666667,
+    "budget_overrun_seeds": 30,
+    "strength_warnings": 190,
+    "feasibility_warnings": 0,
+    "failed_mean_probability": 0.4950516576346971
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "LOCAL_BYTES_VERIFIED",
+  "source_doi": "https://doi.org/10.6084/m9.figshare.17032760.v1",
+  "article_id": 17032760,
+  "file_id": 31504751,
+  "dataset_version": 1,
+  "original_filename": "GE_RefractoryAlloyScreeningDataset_FINAL.csv",
+  "download_url": "https://ndownloader.figshare.com/files/31504751",
+  "size_bytes": 4706,
+  "source_md5": "2a829ae75f620735b874b73fe69bf4d5",
+  "sha256": "a9f2b7aaf4b7305535c321bf1354115ac0c157ef1159b23829dff850212ceacd",
+  "acquisition": "User uploaded original to repository; recovered from Git commit 843c94d3264ab73904512ff3e54b1634084428d1 without resetting local work",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "User-supplied official record; publisher metadata not independently accessible"
+  },
+  "attribution": "Detor, Oppenheimer, Casey and Crawford (2022), Data in Brief 45, 108582, https://doi.org/10.1016/j.dib.2022.108582",
+  "verification_date_utc": "2026-11-12",
+  "publisher": "Figshare (user-identified record)",
+  "resolved_url": null,
+  "publisher_metadata_independently_verified": false,
+  "modifications": "Raw bytes unchanged. Processed group means/minimum rank documented separately."
+}

@@ -1,0 +1,7 @@
+{
+  "tests": 38,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python -m pytest -q --junitxml=results/test_results.xml"
+}

@@ -1,0 +1,12 @@
+AlloyGuard-BO v1/v2
+Original project code: MIT (see LICENSE).
+
+Citrine MPEA materials are reproduced from:
+https://github.com/CitrineInformatics/MPEA_dataset
+Commit d31e2510cccc3fb9e79d43ad62652f64ef8c2c5e
+Apache License 2.0, preserved in data/citrine/raw/UPSTREAM_LICENSE.
+Borg et al. (2020), Scientific Data, DOI 10.1038/s41597-020-00768-9.
+Derived qualification/cohort files are modifications by AlloyGuard-BO, not
+unmodified official dataset releases. See DATA_LICENSES.md for changes,
+additional dataset attribution, and unresolved historical upload rights.
+No endorsement by Citrine Informatics or dataset authors is implied.

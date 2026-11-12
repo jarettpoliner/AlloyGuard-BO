@@ -1,0 +1,28 @@
+{
+  "verdict": "NO_CONFIRMED_IMPROVEMENT",
+  "best_mean_auc_policy": "cbo",
+  "rc_minus_cbo_auc": {
+    "mean": -6.75,
+    "lower_95": -52.609778885876295,
+    "upper_95": 39.109778885876295,
+    "n": 30
+  },
+  "scope": "EXPLORATORY_CONDITIONAL_FINITE_POOL",
+  "test_evidence": {
+    "tests": 95,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "audit_status": "PASSED",
+  "gates": {
+    "G1": "COMPLETE_EXPLORATORY_WORKFLOW",
+    "G2": "COMPLETE_EXPLORATORY_WORKFLOW",
+    "G3": "COMPLETE_EXPLORATORY_WORKFLOW",
+    "G4": "COMPLETE_EXPLORATORY_WORKFLOW",
+    "G5": "COMPLETE_EXPLORATORY_WORKFLOW",
+    "G6": "COMPLETE_EXPLORATORY_WORKFLOW",
+    "G7": "COMPLETE_EXPLORATORY_WORKFLOW",
+    "G8": "COMPLETE_EXPLORATORY_WORKFLOW"
+  }
+}

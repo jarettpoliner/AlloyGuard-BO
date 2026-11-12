@@ -1,0 +1,38 @@
+{
+  "status": "PASSED",
+  "mode": "FRESH_REPRODUCTION",
+  "audited_selections": 9600,
+  "audited_runs": 640,
+  "fresh_reproduced_selections": 9600,
+  "scenarios": [
+    "v1",
+    "v2/group_0",
+    "v2/group_1",
+    "v2/group_2",
+    "v2/initial_16",
+    "v2/initial_8",
+    "v2/primary",
+    "v2/threshold_12",
+    "v2/threshold_8"
+  ],
+  "original_manifest_files": 482,
+  "missing_ignored_local_inputs": [
+    "data/processed/compositions.csv"
+  ],
+  "original_scientific_files_unchanged": true,
+  "historical_readme_archived_byte_identically": true,
+  "exact_v1_v2_baseline_selections": 1800,
+  "cohort_cases": 80,
+  "feasible_cases": 58,
+  "studies": 36,
+  "components": 31,
+  "readme_numbers_match_saved_metrics": true,
+  "lock_sha256": "f5ea917bffc828771f41f5c87a526aaefd95cba1d5cb62646ac172ca9a271a0a",
+  "v2_config_hash": "d36b8a61b60a4e059deac60fe15ed51cc0751b90ead728be269a44a5d49dfceb",
+  "scope": "Independent computational checks, not external human peer review",
+  "limitations": [
+    "Seed intervals condition on reused data",
+    "Steel upload redistribution license unresolved",
+    "GE/Mendeley licensing is user-verified official-record evidence, not newly fetched metadata"
+  ]
+}

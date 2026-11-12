@@ -1,0 +1,18 @@
+{
+  "assessment_config_sha256": "932ebd1360d1ca7de103e1c25a86219208dfe40f5d4276d9b75bf1438aa0f549",
+  "artifacts": {
+    "REPORT.md": "ecafa74aad2888e8ff54a05140167a25f0711774a772e666ae914b32dfa0f57b",
+    "mpea_ambiguous_repeat_candidates.csv": "3da8ba3b0c6e2e7a733246350948a74da1f0c960891636767dc9a4e98274f740",
+    "mpea_audit.json": "75cbf0f8b44b03ce7681ff7b4ee7ae6c33329b210ce246528f11af2e2fe90fe9",
+    "mpea_manifest.json": "10cf765ad7002a7934d0aac02657215932212e685a4710764ea6eb9f430d1c06",
+    "mpea_paired_raw_inspection.csv": "dbdf39c1ba813cb6fe3e3f2442c2a38d31a99d37679b7984954354adc5b4c0f9",
+    "mpea_record_qualification.csv": "854f74e7a512704b14f6d61d1f591db27579de4ad1a5c296ff57db12d12c5f1f",
+    "mpea_study_review_queue.csv": "74cbf63e0b5f634417b34bff600f6e02e638d4246b29af495e32f76a6c067aaf",
+    "primary_dataset_decision.json": "65d7e06ca6e4afaffdfa6d98a220703f18b3b24887d5736c8910dcf126c3db56",
+    "steel_audit.json": "53866f58679e691219a3b81fe1dfd6a7bc4db08e8fd878a59826697d5435adaa",
+    "steel_case_identifiers.csv": "6570a338efb9acce0410dcbad33285229b92ddd518186d905fcad718e805df7a",
+    "steel_manifest.json": "73ce86962150c8ea848d3aca77570abe9b54b5ebbbc3e4d12221576ecc6d0247",
+    "test_evidence.json": "b169c9048932842a8f3fab7756086caf38d04ed81613342a2fc520cbd299e763",
+    "test_results.xml": "041e1a9f66c616dc0da02cbb018436d9c7c9731dfef0986d7423be5cff36b536"
+  }
+}

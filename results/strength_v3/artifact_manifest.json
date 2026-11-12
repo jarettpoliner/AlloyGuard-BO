@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "REPORT.md": "52ce7ca3fc9f79d55564f8cc3ff9396b25e605ba04521e865a37b3aaac3d146c",
+    "feature_schema.json": "bd3c6ee826fb756c2d2a9ee6b3652f85d8ed615c06574bb078ce4a20b7452ed3",
+    "primary_cohort.csv": "2fadb94ef480372c48ada3ff5825ae7350af6c431c10b38d36056b1924887537",
+    "priority_studies.csv": "b74ee14b1fd02a9c977d26542fb0c24c70172b96eaa8c07d1da1050c8a270092",
+    "qualification.json": "c9e24040da5fa9d435d5c23beb89d7feb31351a1f74b898e5bb4e8cbed2e6f13",
+    "record_qualification.csv": "b1ec5d2a4834701e04f5208c1117bc2e6541757f10963fe1ab4fe97fe5455abf",
+    "secondary_provisional_cohort.csv": "ed0b9648f8dd4f7223a90210ec2a8d3aeeae8461e95aa657fc4bf3ad70c4112a",
+    "software_audit.json": "b2f51c0d23880cd8b12afa7e355cb767f8f1b684680bc35b7371f06c02cef70a",
+    "source_access_evidence.json": "c549808a1b2b7a66a32256f06b08175b65ee7f714bbad94fcbcf3e711fb4bc5b",
+    "synthetic_verification.json": "29844777cb34f5246b547616a97bb4582626dc24727bad599a13480547c10f6c",
+    "test_evidence.json": "e7a66fb0ea689d0efd76043341082082c6eb15f492fc84321175c737688746d8",
+    "test_results.xml": "6dbb95e0a36cd4d7148d342f279ae21d490deaf5bd0939ef797889e2778d41ce",
+    "verdict.json": "e269539bea26c16625d03f4304c80e7be75aa59eeef81871d456eef116dc98a9"
+  }
+}

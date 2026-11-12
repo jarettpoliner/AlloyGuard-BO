@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETED",
+  "mode": "FINAL_SCIENTIFIC",
+  "scientific_conclusions_allowed": true,
+  "config_hash": "e47287143ce15743f59d3ad6579c69f3628081a80b84a7afb7eb787cb1273170",
+  "source_hash": "6abc50d8d407f504c864807c9ac8d263b5607f23bbfbcac6a96529e59ab5ffbd",
+  "dataset_hash": "9cdedf8fae3154c9d66b5654a961714e3c36fe1b3783610e38436216efa06724",
+  "seed_count": 5,
+  "policies": [
+    "random",
+    "strength_bo",
+    "cbo",
+    "rc_cbo"
+  ],
+  "selections": 300,
+  "elapsed_seconds": 2.6012918390006234,
+  "artifact_sha256": {
+    "config.json": "ec42402beea0123b70776c4fcee75563b1daf3f8a8135361a91278b943bccdd3",
+    "curves.csv": "39b6696bd6690b539ab24bd2da6f3ac986aa717113ee58d3457167ccad742003",
+    "metrics.csv": "50c2da9f9038e8c7003c44a0278ffb3ee758fe9d58ff98313f0410f2a5cf1cc5",
+    "traces.jsonl": "a528f696d9b97f963b3cef8a5681c513f08b37ad5ed6400ca46bd32842eb0f40"
+  },
+  "interpretation_scope": "EXPLORATORY_RETROSPECTIVE_PUBLISHED_DATA_REPLAY",
+  "adapter_hash": "00d34388d62cfe8408d90d843db74b90309557561ac10f5370b33f0b662f9c38",
+  "qualification_hash": "d177c58aa90eb974e935759b46ac98ab100b5c5fbc5bb3dcfbcc43e3893cd7ab",
+  "upstream_commit": "d31e2510cccc3fb9e79d43ad62652f64ef8c2c5e",
+  "python": "3.12.14",
+  "lock_hash": "f5ea917bffc828771f41f5c87a526aaefd95cba1d5cb62646ac172ca9a271a0a"
+}

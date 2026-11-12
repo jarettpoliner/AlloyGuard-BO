@@ -1,0 +1,34 @@
+{
+  "warnings": {
+    "The optimal value found for dimension 0 of parameter k2__length_scale is close to the specified upper bound 6.0. Increasing the bound and calling fit again may find a better value.": 19,
+    "The optimal value found for dimension 0 of parameter k2__length_scale is close to the specified lower bound 0.3. Decreasing the bound and calling fit again may find a better value.": 16
+  },
+  "optimizer_failures": 0,
+  "feasibility_fallbacks": 162,
+  "calibration_failures": 0,
+  "calibration_active_steps": 0,
+  "rc_cbo_ranking_changes": 0,
+  "source_of_boundary_warnings": "L-BFGS-B signal variance/length scale reach conservative bounds with small training sets. Fits remain finite; these are retained, not hidden.",
+  "discrimination": {
+    "random": {
+      "prequential_selected_auc_raw": 0.7354434813063654,
+      "selected_forecasts": 450,
+      "feasible_selected": 27
+    },
+    "hardness_bo": {
+      "prequential_selected_auc_raw": 0.7520646399714298,
+      "selected_forecasts": 450,
+      "feasible_selected": 57
+    },
+    "cbo": {
+      "prequential_selected_auc_raw": 0.6966157167229553,
+      "selected_forecasts": 450,
+      "feasible_selected": 77
+    },
+    "rc_cbo": {
+      "prequential_selected_auc_raw": 0.6966157167229553,
+      "selected_forecasts": 450,
+      "feasible_selected": 77
+    }
+  }
+}

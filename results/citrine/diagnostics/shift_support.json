@@ -1,0 +1,47 @@
+[
+  {
+    "fold": 0,
+    "status": "COMPLETED",
+    "train": {
+      "cases": 46,
+      "feasible": 28,
+      "infeasible": 18
+    },
+    "target": {
+      "cases": 34,
+      "feasible": 30,
+      "infeasible": 4
+    },
+    "selections": 300
+  },
+  {
+    "fold": 1,
+    "status": "COMPLETED",
+    "train": {
+      "cases": 65,
+      "feasible": 48,
+      "infeasible": 17
+    },
+    "target": {
+      "cases": 15,
+      "feasible": 10,
+      "infeasible": 5
+    },
+    "selections": 300
+  },
+  {
+    "fold": 2,
+    "status": "COMPLETED",
+    "train": {
+      "cases": 49,
+      "feasible": 40,
+      "infeasible": 9
+    },
+    "target": {
+      "cases": 31,
+      "feasible": 18,
+      "infeasible": 13
+    },
+    "selections": 300
+  }
+]

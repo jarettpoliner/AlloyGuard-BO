@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED",
+  "mode": "PROVISIONAL_SOFTWARE_VALIDATION",
+  "scientific_conclusions_allowed": false,
+  "config_hash": "21ba4ee254f7fc8eed8621e5de15436cfcf7ea51c9409a77c1f41148015e7aed",
+  "source_hash": "6abc50d8d407f504c864807c9ac8d263b5607f23bbfbcac6a96529e59ab5ffbd",
+  "dataset_hash": "ed0b9648f8dd4f7223a90210ec2a8d3aeeae8461e95aa657fc4bf3ad70c4112a",
+  "seed_count": 5,
+  "policies": [
+    "random",
+    "strength_bo",
+    "cbo",
+    "rc_cbo"
+  ],
+  "selections": 60,
+  "elapsed_seconds": 0.6821141950003948,
+  "artifact_sha256": {
+    "config.json": "f2005a86f9fd6828fae07b68aed038b93e8ee1871a63e00f98ecbe3b172b78c4",
+    "curves.csv": "0bf7ae964a3ba4318bb7e67ff8240b2604379c8e803618759c30eb5e91aaea87",
+    "metrics.csv": "d3b06c833ed05803340d9842ff666990b5c933ba585619000f4c8544e8981a99",
+    "traces.jsonl": "0bcee3d081ecab27258b1e2a7c1d8f9725976f5d278024f5e16c401f2c4ba04e"
+  }
+}

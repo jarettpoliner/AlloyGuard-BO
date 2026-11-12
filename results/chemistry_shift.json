@@ -1,0 +1,32 @@
+{
+  "status": "OOD_TEST_INSUFFICIENT_SUPPORT",
+  "method": "KMeans(k=3, seed=0, n_init=10) on compositions only",
+  "requirements": {
+    "clusters": 3,
+    "minimum_target_feasible": 4,
+    "minimum_target_size": 15,
+    "minimum_train_feasible": 4,
+    "random_state": 0
+  },
+  "groups": [
+    {
+      "composition_cluster": 0,
+      "target_groups": 22,
+      "target_feasible": 4,
+      "training_feasible": 3
+    },
+    {
+      "composition_cluster": 1,
+      "target_groups": 29,
+      "target_feasible": 3,
+      "training_feasible": 4
+    },
+    {
+      "composition_cluster": 2,
+      "target_groups": 31,
+      "target_feasible": 0,
+      "training_feasible": 7
+    }
+  ],
+  "reason": "Seven feasible groups cannot provide at least four positives on both sides of a held-out split. No OOD outcome comparison claimed."
+}

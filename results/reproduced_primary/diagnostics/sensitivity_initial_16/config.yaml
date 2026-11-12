@@ -1,0 +1,48 @@
+budget: 15
+calibration:
+  dataset_min_per_class: 15
+  enabled: false
+  min_observations: 20
+  min_per_class: 5
+  regularization: 0.05
+calibration_gate_evidence:
+  feasible: 7
+  infeasible: 75
+  support_min_per_class: 15
+config_hash: b1184b574c4f62c3138fe278a4b2b84afa5874f763f6a2d65be19e10ecc862cc
+dataset_hash: a9f2b7aaf4b7305535c321bf1354115ac0c157ef1159b23829dff850212ceacd
+dependency_lock_hash: f5ea917bffc828771f41f5c87a526aaefd95cba1d5cb62646ac172ca9a271a0a
+experiment_label: EXPLORATORY_initial_16
+exploration_coefficient: 0.05
+feasibility:
+  length_scale: 2.0
+  max_iter_predict: 100
+frozen_before_primary: true
+hardness:
+  maxiter: 60
+  observation_noise_gpa: 0.15
+initial_size: 16
+initialization: outcome_blind_uniform_without_replacement
+no_feasible_score_gpa: 0.0
+ood:
+  clusters: 3
+  minimum_target_feasible: 4
+  minimum_target_size: 15
+  minimum_train_feasible: 4
+  random_state: 0
+primary_metric: trapezoid_auc_steps_0_to_15_gpa_evaluations
+processed_dataset_hash: 9f92eae22b0f957625b58d78372db7acbc9579f33132376c899f261135690ce0
+protocol_revision: 1
+seeds: &id001
+- 100
+- 101
+- 102
+- 103
+- 104
+sensitivity_initial_sizes:
+- 8
+- 16
+sensitivity_seeds: *id001
+source_hash: c55d6ea7627663d2663772b6cca5f5d5bbe4f0dd5024ca395e2272fb79d9d9d3
+support_distance: 0.35
+threshold: 3

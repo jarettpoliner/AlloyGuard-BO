@@ -1,0 +1,582 @@
+[
+  {
+    "budget": 5,
+    "policy": "random",
+    "mean_auc_loss": 196.19,
+    "mean_failures_saved": 0.5333333333333333,
+    "break_even": 367.85625,
+    "loss_ci": {
+      "mean": 196.19,
+      "lower95": -85.07327584019237,
+      "upper95": 477.45327584019236,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 0.5333333333333333,
+      "lower95": -0.151225074575973,
+      "upper95": 1.2178917412426395,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "disjoint_unbounded",
+      "roots": [
+        -1671.439706096661,
+        -131.94739662532044
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 5,
+    "policy": "strength_bo",
+    "mean_auc_loss": 198.14,
+    "mean_failures_saved": -0.4666666666666667,
+    "break_even": -424.58571428571423,
+    "loss_ci": {
+      "mean": 198.14,
+      "lower95": 43.2471147562471,
+      "upper95": 353.03288524375284,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": -0.4666666666666667,
+      "lower95": -0.9238186628582121,
+      "upper95": -0.009514670475121167,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        -18288.145690253546,
+        -94.97780851135329
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_below"
+  },
+  {
+    "budget": 5,
+    "policy": "rc_cbo",
+    "mean_auc_loss": 0.0,
+    "mean_failures_saved": 0.0,
+    "break_even": null,
+    "loss_ci": {
+      "mean": 0.0,
+      "lower95": 0.0,
+      "upper95": 0.0,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 0.0,
+      "lower95": 0.0,
+      "upper95": 0.0,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "degenerate_linear",
+      "coefficients": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "direction": "parallel_utility_lines"
+  },
+  {
+    "budget": 5,
+    "policy": "risk_threshold",
+    "mean_auc_loss": 329.3233333333334,
+    "mean_failures_saved": 0.9666666666666667,
+    "break_even": 340.6793103448276,
+    "loss_ci": {
+      "mean": 329.3233333333334,
+      "lower95": 109.86696277769292,
+      "upper95": 548.7797038889738,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 0.9666666666666667,
+      "lower95": 0.48145333756631004,
+      "upper95": 1.4518799957670234,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        102.79477545849137,
+        839.0912540258084
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 5,
+    "policy": "risk_budget",
+    "mean_auc_loss": 329.3233333333334,
+    "mean_failures_saved": 1.0,
+    "break_even": 329.3233333333334,
+    "loss_ci": {
+      "mean": 329.3233333333334,
+      "lower95": 109.86696277769292,
+      "upper95": 548.7797038889738,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 1.0,
+      "lower95": 0.5195999202355422,
+      "upper95": 1.4804000797644576,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        103.08201305162457,
+        760.3859666614
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 5,
+    "policy": "cd_cbo",
+    "mean_auc_loss": 227.52333333333334,
+    "mean_failures_saved": -0.26666666666666666,
+    "break_even": -853.2125000000001,
+    "loss_ci": {
+      "mean": 227.52333333333334,
+      "lower95": 45.39569707683461,
+      "upper95": 409.6509695898321,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": -0.26666666666666666,
+      "lower95": -0.7362698602820845,
+      "upper95": 0.2029365269487512,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "disjoint_unbounded",
+      "roots": [
+        -131.64733171766474,
+        945.4082092299786
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_below"
+  },
+  {
+    "budget": 5,
+    "policy": "cd_risk_threshold",
+    "mean_auc_loss": 244.42333333333332,
+    "mean_failures_saved": 0.5666666666666667,
+    "break_even": 431.33529411764704,
+    "loss_ci": {
+      "mean": 244.42333333333332,
+      "lower95": 51.913785277141585,
+      "upper95": 436.93288138952505,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 0.5666666666666667,
+      "lower95": 0.11004083830287431,
+      "upper95": 1.023292495030459,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        72.54102159350863,
+        2776.8989649571204
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 10,
+    "policy": "random",
+    "mean_auc_loss": 506.84000000000003,
+    "mean_failures_saved": 1.1666666666666667,
+    "break_even": 434.4342857142857,
+    "loss_ci": {
+      "mean": 506.84000000000003,
+      "lower95": -182.81177928013585,
+      "upper95": 1196.491779280136,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 1.1666666666666667,
+      "lower95": 0.07433587575070288,
+      "upper95": 2.2589974575826304,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        -146.24589433524667,
+        8906.6832486928
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 10,
+    "policy": "strength_bo",
+    "mean_auc_loss": 427.8233333333334,
+    "mean_failures_saved": -1.0666666666666667,
+    "break_even": -401.084375,
+    "loss_ci": {
+      "mean": 427.8233333333334,
+      "lower95": 75.00298243288631,
+      "upper95": 780.6436842337805,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": -1.0666666666666667,
+      "lower95": -1.9703921619183227,
+      "upper95": -0.16294117141501063,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        -2595.4595071740546,
+        -70.26412144898492
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_below"
+  },
+  {
+    "budget": 10,
+    "policy": "rc_cbo",
+    "mean_auc_loss": 5.7,
+    "mean_failures_saved": 0.0,
+    "break_even": null,
+    "loss_ci": {
+      "mean": 5.7,
+      "lower95": -5.957808960156409,
+      "upper95": 17.357808960156408,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 0.0,
+      "lower95": -0.09806125565127163,
+      "upper95": 0.09806125565127163,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "all_real",
+      "intervals": []
+    },
+    "direction": "parallel_utility_lines"
+  },
+  {
+    "budget": 10,
+    "policy": "risk_threshold",
+    "mean_auc_loss": 1012.9233333333334,
+    "mean_failures_saved": 1.5,
+    "break_even": 675.2822222222222,
+    "loss_ci": {
+      "mean": 1012.9233333333334,
+      "lower95": 476.47852662454693,
+      "upper95": 1549.3681400421199,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 1.5,
+      "lower95": 0.742004888452922,
+      "upper95": 2.257995111547078,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        285.6073288338555,
+        1542.7616799348036
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 10,
+    "policy": "risk_budget",
+    "mean_auc_loss": 1001.0233333333333,
+    "mean_failures_saved": 1.5333333333333334,
+    "break_even": 652.841304347826,
+    "loss_ci": {
+      "mean": 1001.0233333333333,
+      "lower95": 476.3351172461173,
+      "upper95": 1525.7115494205493,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 1.5333333333333334,
+      "lower95": 0.7882398475354365,
+      "upper95": 2.2784268191312305,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        286.3148456766087,
+        1413.3434071243887
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 10,
+    "policy": "cd_cbo",
+    "mean_auc_loss": 592.7466666666667,
+    "mean_failures_saved": -0.5333333333333333,
+    "break_even": -1111.4,
+    "loss_ci": {
+      "mean": 592.7466666666667,
+      "lower95": 161.20511806111978,
+      "upper95": 1024.2882152722136,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": -0.5333333333333333,
+      "lower95": -1.4144306771928268,
+      "upper95": 0.34776401052616013,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "disjoint_unbounded",
+      "roots": [
+        -225.49316159337013,
+        1488.6798963883182
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_below"
+  },
+  {
+    "budget": 10,
+    "policy": "cd_risk_threshold",
+    "mean_auc_loss": 736.3466666666667,
+    "mean_failures_saved": 1.3333333333333333,
+    "break_even": 552.2600000000001,
+    "loss_ci": {
+      "mean": 736.3466666666667,
+      "lower95": 263.09334625048757,
+      "upper95": 1209.599987082846,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 1.3333333333333333,
+      "lower95": 0.4993321063959504,
+      "upper95": 2.1673345602707164,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        161.68188222304423,
+        1818.757654163525
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 15,
+    "policy": "random",
+    "mean_auc_loss": 962.4133333333334,
+    "mean_failures_saved": 0.9666666666666667,
+    "break_even": 995.6,
+    "loss_ci": {
+      "mean": 962.4133333333334,
+      "lower95": -101.29600897287219,
+      "upper95": 2026.122675639539,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 0.9666666666666667,
+      "lower95": -0.21204159152326285,
+      "upper95": 2.145374924856596,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "disjoint_unbounded",
+      "roots": [
+        -3978.6208725029546,
+        -113.39692019039245
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 15,
+    "policy": "strength_bo",
+    "mean_auc_loss": 652.89,
+    "mean_failures_saved": -1.9,
+    "break_even": -343.62631578947367,
+    "loss_ci": {
+      "mean": 652.89,
+      "lower95": 73.84449985991819,
+      "upper95": 1231.9355001400818,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": -1.9,
+      "lower95": -3.06997393285378,
+      "upper95": -0.7300260671462195,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        -1104.6952003307372,
+        -36.744352680194055
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_below"
+  },
+  {
+    "budget": 15,
+    "policy": "rc_cbo",
+    "mean_auc_loss": 6.75,
+    "mean_failures_saved": 0.03333333333333333,
+    "break_even": 202.5,
+    "loss_ci": {
+      "mean": 6.75,
+      "lower95": -39.109778885876295,
+      "upper95": 52.609778885876295,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 0.03333333333333333,
+      "lower95": -0.1743004248529738,
+      "upper95": 0.24096709151964046,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "all_real",
+      "intervals": []
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 15,
+    "policy": "risk_threshold",
+    "mean_auc_loss": 1942.3733333333334,
+    "mean_failures_saved": 2.0,
+    "break_even": 971.1866666666667,
+    "loss_ci": {
+      "mean": 1942.3733333333334,
+      "lower95": 1084.938337663667,
+      "upper95": 2799.808329003,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 2.0,
+      "lower95": 1.0801038821304023,
+      "upper95": 2.9198961178695977,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        522.9857891951867,
+        1841.6646033744596
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 15,
+    "policy": "risk_budget",
+    "mean_auc_loss": 1930.4733333333336,
+    "mean_failures_saved": 2.0,
+    "break_even": 965.2366666666668,
+    "loss_ci": {
+      "mean": 1930.4733333333336,
+      "lower95": 1083.0653408190533,
+      "upper95": 2777.881325847614,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 2.0,
+      "lower95": 1.0801038821304023,
+      "upper95": 2.9198961178695977,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        522.8621392199566,
+        1824.5182983163138
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  },
+  {
+    "budget": 15,
+    "policy": "cd_cbo",
+    "mean_auc_loss": 972.2733333333333,
+    "mean_failures_saved": -1.2333333333333334,
+    "break_even": -788.3297297297297,
+    "loss_ci": {
+      "mean": 972.2733333333333,
+      "lower95": 301.46775407412906,
+      "upper95": 1643.0789125925376,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": -1.2333333333333334,
+      "lower95": -2.1357277971366497,
+      "upper95": -0.33093886953001694,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        -3512.834095448089,
+        -199.50232844510518
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_below"
+  },
+  {
+    "budget": 15,
+    "policy": "cd_risk_threshold",
+    "mean_auc_loss": 1441.0800000000002,
+    "mean_failures_saved": 1.5333333333333334,
+    "break_even": 939.8347826086957,
+    "loss_ci": {
+      "mean": 1441.0800000000002,
+      "lower95": 679.3895421114885,
+      "upper95": 2202.770457888512,
+      "n": 30
+    },
+    "saved_ci": {
+      "mean": 1.5333333333333334,
+      "lower95": 0.668761474100949,
+      "upper95": 2.3979051925657178,
+      "n": 30
+    },
+    "fieller95": {
+      "type": "bounded",
+      "roots": [
+        381.0409905397621,
+        2449.13739154917
+      ],
+      "scope": "Unrestricted Fieller ratio set; negative penalties are not operational."
+    },
+    "direction": "new_policy_favored_above"
+  }
+]

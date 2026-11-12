@@ -1,0 +1,117 @@
+{
+  "mean_dominated_by": {
+    "5": {
+      "random": [],
+      "strength_bo": [
+        "random",
+        "cbo",
+        "rc_cbo"
+      ],
+      "cbo": [],
+      "rc_cbo": [],
+      "risk_threshold": [
+        "risk_budget"
+      ],
+      "risk_budget": [],
+      "cd_cbo": [
+        "random",
+        "cbo",
+        "rc_cbo"
+      ],
+      "cd_risk_threshold": []
+    },
+    "10": {
+      "random": [],
+      "strength_bo": [
+        "cbo",
+        "rc_cbo"
+      ],
+      "cbo": [],
+      "rc_cbo": [
+        "cbo"
+      ],
+      "risk_threshold": [
+        "risk_budget"
+      ],
+      "risk_budget": [],
+      "cd_cbo": [
+        "random",
+        "cbo",
+        "rc_cbo"
+      ],
+      "cd_risk_threshold": []
+    },
+    "15": {
+      "random": [],
+      "strength_bo": [
+        "cbo",
+        "rc_cbo"
+      ],
+      "cbo": [],
+      "rc_cbo": [],
+      "risk_threshold": [
+        "risk_budget"
+      ],
+      "risk_budget": [],
+      "cd_cbo": [
+        "random",
+        "cbo",
+        "rc_cbo"
+      ],
+      "cd_risk_threshold": []
+    }
+  },
+  "empirical_mean_utility_envelope": {
+    "5": [
+      {
+        "lower_lambda": 0.0,
+        "upper_lambda": 329.32333333333287,
+        "policy": "cbo"
+      },
+      {
+        "lower_lambda": 329.32333333333287,
+        "upper_lambda": null,
+        "policy": "risk_budget"
+      }
+    ],
+    "10": [
+      {
+        "lower_lambda": 0.0,
+        "upper_lambda": 434.4342857142859,
+        "policy": "cbo"
+      },
+      {
+        "lower_lambda": 434.4342857142859,
+        "upper_lambda": 1347.7727272727273,
+        "policy": "random"
+      },
+      {
+        "lower_lambda": 1347.7727272727273,
+        "upper_lambda": null,
+        "policy": "risk_budget"
+      }
+    ],
+    "15": [
+      {
+        "lower_lambda": 0.0,
+        "upper_lambda": 202.5000000000007,
+        "policy": "cbo"
+      },
+      {
+        "lower_lambda": 202.5000000000007,
+        "upper_lambda": 956.2199999999999,
+        "policy": "rc_cbo"
+      },
+      {
+        "lower_lambda": 956.2199999999999,
+        "upper_lambda": 1048.7,
+        "policy": "cd_risk_threshold"
+      },
+      {
+        "lower_lambda": 1048.7,
+        "upper_lambda": null,
+        "policy": "risk_budget"
+      }
+    ]
+  }
+}

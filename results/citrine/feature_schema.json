@@ -1,0 +1,21 @@
+{
+  "element_columns": [
+    "Al",
+    "C",
+    "Co",
+    "Cr",
+    "Cu",
+    "Fe",
+    "Hf",
+    "Mn",
+    "Mo",
+    "Nb",
+    "Ni",
+    "Si",
+    "Ta",
+    "Ti",
+    "Zr"
+  ],
+  "basis": "Atomic fractions from official normalized atomic-ratio master formulas",
+  "post_experiment_features_used": false
+}

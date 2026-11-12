@@ -1,0 +1,19 @@
+[project]
+name = "alloyguard-bo"
+version = "0.1.0"
+description = "Reliability-calibrated finite-pool experimental alloy selection benchmark"
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn", "matplotlib", "PyYAML"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

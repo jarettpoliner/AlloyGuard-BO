@@ -1,0 +1,42 @@
+name: Verify published research
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full_reproduction:
+        description: Reproduce all 9600 v1/v2 selections (CPU)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      PYTHONPATH: src
+      MPLCONFIGDIR: /tmp/alloyguard-matplotlib
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+          cache: pip
+      - name: Install unchanged lock
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install -r requirements.lock
+          .venv/bin/python -m pip check
+      - name: Verify source inputs and original tests
+        run: |
+          .venv/bin/python scripts/prepare_publication_inputs.py
+          .venv/bin/python -m pytest -q
+      - name: Audit saved scientific evidence
+        run: .venv/bin/python scripts/verify_publication.py --output .local-reproduction/ci-verification.json
+      - name: Full frozen reproduction (manual opt-in)
+        if: github.event_name == 'workflow_dispatch' && inputs.full_reproduction
+        run: bash scripts/reproduce_publication.sh .local-reproduction/ci-full

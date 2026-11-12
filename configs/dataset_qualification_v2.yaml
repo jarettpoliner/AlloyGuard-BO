@@ -1,0 +1,49 @@
+revision: dataset_qualification_v2
+purpose: select a defensible strength/elongation benchmark before any new policy comparison
+objective: measured_tensile_yield_strength_mpa
+feasible_event: measured_tensile_elongation_percent_greater_equal_10
+elongation_threshold_percent: 10.0
+required_provenance:
+  - official_dataset_record_and_publication
+  - explicit_license_and_attribution
+  - source_version_or_date_and_file_integrity_link
+required_measurement_conditions:
+  - experimental_not_simulated
+  - yield_and_elongation_same_test_case
+  - tensile_not_compressive
+  - documented_test_temperature
+primary_temperature_window_c: [20.0, 30.0]
+unknown_test_temperature_policy: unresolved_not_assumed_room_temperature
+unknown_loading_mode_policy: unresolved_not_assumed_tensile_from_column_name
+numeric_screen:
+  yield_strength_mpa: strictly_positive_finite
+  elongation_percent_range: [0.0, 100.0]
+  threshold_based_outlier_removal: forbidden
+minimum_support:
+  independent_cases_per_class: 15
+  distinct_studies_per_class_for_study_shift: 5
+grouping:
+  independent_case: canonical_composition_plus_preexperiment_processing_plus_test_conditions
+  unidentified_repeats: quarantine_for_source_review_not_automatically_independent_or_averaged
+  heldout_constraints: no_same_study_or_composition_processing_case_across_train_test
+predictor_allowlist:
+  - source_verified_composition
+  - verified_planned_processing_conditions
+predictor_exclusions:
+  - measured_phases
+  - FCC_BCC_HCP_IM_phase_indicators
+  - measured_hardness
+  - yield_strength
+  - tensile_strength
+  - compressive_strength
+  - elongation_or_ductility
+  - compressive_plasticity
+  - cluster_labels_without_verified_outcome_blind_construction
+  - source_identifier_as_feature
+suitability_order:
+  - provenance_and_measurement_compatibility_are_hard_gates
+  - independent_class_support
+  - study_grouping_and_shift_evaluation_support
+  - known_preexperiment_features
+  - number_of_qualified_independent_cases
+selection_must_not_use: optimization_performance

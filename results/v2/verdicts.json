@@ -1,0 +1,78 @@
+{
+  "risk_threshold": {
+    "verdict": "NO CONFIRMED IMPROVEMENT",
+    "scope": "EXPLORATORY_ENGINEERING_GOALS_NOT_SIGNIFICANCE",
+    "auc_retention": 0.861115930892596,
+    "failure_reduction": 0.379746835443038,
+    "auc_goal_contrast": {
+      "mean": -1662.6618666666666,
+      "lower_95": -2511.170474868485,
+      "upper_95": -814.153258464848,
+      "n": 30
+    },
+    "failure_goal_contrast": {
+      "mean": -1.21,
+      "lower_95": -1.9862556498062336,
+      "upper_95": -0.43374435019376645,
+      "n": 30
+    },
+    "both_goals_met": false
+  },
+  "risk_budget": {
+    "verdict": "NO CONFIRMED IMPROVEMENT",
+    "scope": "EXPLORATORY_ENGINEERING_GOALS_NOT_SIGNIFICANCE",
+    "auc_retention": 0.861966807700888,
+    "failure_reduction": 0.379746835443038,
+    "auc_goal_contrast": {
+      "mean": -1650.7618666666667,
+      "lower_95": -2489.238197136413,
+      "upper_95": -812.2855361969205,
+      "n": 30
+    },
+    "failure_goal_contrast": {
+      "mean": -1.21,
+      "lower_95": -1.9862556498062336,
+      "upper_95": -0.43374435019376645,
+      "n": 30
+    },
+    "both_goals_met": false
+  },
+  "cd_cbo": {
+    "verdict": "NO CONFIRMED IMPROVEMENT",
+    "scope": "EXPLORATORY_ENGINEERING_GOALS_NOT_SIGNIFICANCE",
+    "auc_retention": 0.930480266331591,
+    "failure_reduction": -0.23417721518987333,
+    "auc_goal_contrast": {
+      "mean": -692.5618666666666,
+      "lower_95": -1351.7018496998592,
+      "upper_95": -33.42188363347395,
+      "n": 30
+    },
+    "failure_goal_contrast": {
+      "mean": 2.0233333333333334,
+      "lower_95": 1.2178758642203844,
+      "upper_95": 2.8287908024462824,
+      "n": 30
+    },
+    "both_goals_met": false
+  },
+  "cd_risk_threshold": {
+    "verdict": "NO CONFIRMED IMPROVEMENT",
+    "scope": "EXPLORATORY_ENGINEERING_GOALS_NOT_SIGNIFICANCE",
+    "auc_retention": 0.89695953353837,
+    "failure_reduction": 0.2911392405063291,
+    "auc_goal_contrast": {
+      "mean": -1161.3685333333333,
+      "lower_95": -1912.2491142377871,
+      "upper_95": -410.48795242887934,
+      "n": 30
+    },
+    "failure_goal_contrast": {
+      "mean": -0.7433333333333333,
+      "lower_95": -1.5081912215574615,
+      "upper_95": 0.021524554890794967,
+      "n": 30
+    },
+    "both_goals_met": false
+  }
+}

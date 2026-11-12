@@ -1,0 +1,14 @@
+{
+  "status": "USER_IDENTIFIED_NOT_INDEPENDENTLY_VERIFIED",
+  "article_id": 17032760,
+  "file_id": 31504751,
+  "requested_version": 1,
+  "original_filename": "GE_RefractoryAlloyScreeningDataset_FINAL.csv",
+  "download_url": "https://ndownloader.figshare.com/files/31504751",
+  "expected_size_bytes": 4706,
+  "expected_md5": "2a829ae75f620735b874b73fe69bf4d5",
+  "reported_license": "CC BY 4.0",
+  "actual_sha256": null,
+  "source_metadata_independently_verified": false,
+  "license_independently_verified": false
+}

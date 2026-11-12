@@ -1,0 +1,30 @@
+{
+  "status": "PASSED",
+  "purpose": "software correctness only; not scientific evidence or measured materials",
+  "noise_seed": 91,
+  "noise_sd_mpa": 2,
+  "known_continuous_feasible_optimum_mpa": 1200.0,
+  "known_grid_feasible_optimum_noiseless_mpa": 1187.323943661972,
+  "known_unconstrained_optimum_mpa": 2100.0,
+  "constraint": "elongation=20*(1-x)>=10 percent",
+  "active_group_calibration": true,
+  "temperature": 0.3644627932613494,
+  "policy_checks": {
+    "random": {
+      "equal_budget": 5,
+      "deterministic": true
+    },
+    "strength_bo": {
+      "equal_budget": 5,
+      "deterministic": true
+    },
+    "cbo": {
+      "equal_budget": 5,
+      "deterministic": true
+    },
+    "rc_cbo": {
+      "equal_budget": 5,
+      "deterministic": true
+    }
+  }
+}

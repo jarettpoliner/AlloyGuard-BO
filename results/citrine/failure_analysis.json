@@ -1,0 +1,615 @@
+{
+  "worst_rc_minus_cbo_seed": 16,
+  "worst_auc_difference": -342.0,
+  "seeds_rc_better": 1,
+  "seeds_rc_worse": 3,
+  "seeds_identical_auc": 26,
+  "first_decision_divergence": {
+    "seed": 0,
+    "step": 13,
+    "cbo": {
+      "acquisition_score": 21.258536866233907,
+      "calibrated_winner": "citrine-35a932c9bf44eb8f",
+      "calibration_status": "NOT_APPLIED",
+      "case_id": "citrine-35a932c9bf44eb8f",
+      "composition_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "config_hash": "0d7938858f175c854f1555f88ba0dc983cdff22c505f00bba742d7db50de5011",
+      "constrained_expected_improvement_mpa": 21.258536866233907,
+      "dataset_hash": "9cdedf8fae3154c9d66b5654a961714e3c36fe1b3783610e38436216efa06724",
+      "diagnostics": {
+        "calibration": {},
+        "calibration_folds": [],
+        "feasibility": {
+          "class_counts": [
+            8,
+            16
+          ],
+          "status": "FIT",
+          "warnings": []
+        },
+        "fit_seconds": 0.005647239000609261,
+        "observed_groups": [
+          "citrine-component-027",
+          "citrine-component-001",
+          "citrine-component-017",
+          "citrine-component-005",
+          "citrine-component-001",
+          "citrine-component-008",
+          "citrine-component-002",
+          "citrine-component-003",
+          "citrine-component-010",
+          "citrine-component-008",
+          "citrine-component-028",
+          "citrine-component-005",
+          "citrine-component-009",
+          "citrine-component-011",
+          "citrine-component-009",
+          "citrine-component-009",
+          "citrine-component-019",
+          "citrine-component-011",
+          "citrine-component-029",
+          "citrine-component-021",
+          "citrine-component-016",
+          "citrine-component-010",
+          "citrine-component-005",
+          "citrine-component-028"
+        ],
+        "observed_ids": [
+          "citrine-ba59e15398509278",
+          "citrine-07328bd10b374dc4",
+          "citrine-68125b93f9a49e37",
+          "citrine-85e4ecafca343998",
+          "citrine-496808713338c50a",
+          "citrine-32588fd62eaf4f58",
+          "citrine-436f64bb43780844",
+          "citrine-0fe2ad52c7826342",
+          "citrine-984d543783708501",
+          "citrine-c1bd5b6f17d1186d",
+          "citrine-ec079712baac704b",
+          "citrine-1da54d250f7c915b",
+          "citrine-3a6e07d3bf279a9f",
+          "citrine-ffd84f02345828a9",
+          "citrine-49c01288ff5550d4",
+          "citrine-c11acf7548ff0c47",
+          "citrine-6f7d2d456d50d6ef",
+          "citrine-4498e48c80e2db93",
+          "citrine-f2318153c0a541ca",
+          "citrine-8e1ba0cbb9c379b7",
+          "citrine-62294e1c8c88eb6c",
+          "citrine-3bd2fe9df2f49659",
+          "citrine-7ed448827854a586",
+          "citrine-ce16a2b057a0a026"
+        ],
+        "strength": {
+          "kernel": "0.885**2 * Matern(length_scale=1.48, nu=2.5)",
+          "noise_mpa": 25.0,
+          "optimizer": [
+            {
+              "iterations": 5,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "success": true
+            }
+          ],
+          "status": "FIT",
+          "warnings": []
+        }
+      },
+      "expected_improvement_mpa": 42.51702984103316,
+      "feasibility_probability_calibrated": 0.5000005161629919,
+      "feasibility_probability_raw": 0.5000005161629919,
+      "feasible": false,
+      "feature_status": "PUBLISHED_ATOMIC_FRACTIONS_COMPOSITION_ONLY",
+      "measured_elongation_percent": 7.9,
+      "measured_strength_mpa": 1900.0,
+      "mode": "FEASIBLE_STRENGTH_IMPROVEMENT",
+      "nearest_observed_composition_distance": 0.6055300708194984,
+      "observed_count": 24,
+      "policy_name": "cbo",
+      "raw_winner": "citrine-35a932c9bf44eb8f",
+      "seed": 0,
+      "selection_step": 13,
+      "strength_latent_std_mpa": 300.11256988642083,
+      "strength_mean_mpa": 580.4166637644167,
+      "strength_observation_interval_mpa": [
+        -9.841345724722146,
+        1170.6746732535557
+      ],
+      "strength_observation_std_mpa": 301.15204565772393,
+      "temperature": 1.0
+    },
+    "rc_cbo": {
+      "acquisition_score": 21.3051984680428,
+      "calibrated_winner": "citrine-95fba8d80c4a59d5",
+      "calibration_status": "CALIBRATION_ACTIVE",
+      "case_id": "citrine-95fba8d80c4a59d5",
+      "composition_features": [
+        0.0,
+        0.0,
+        0.5906674542232723,
+        0.22740696987595985,
+        0.0,
+        0.09096278795038393,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.09096278795038393,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "config_hash": "0d7938858f175c854f1555f88ba0dc983cdff22c505f00bba742d7db50de5011",
+      "constrained_expected_improvement_mpa": 21.3051984680428,
+      "dataset_hash": "9cdedf8fae3154c9d66b5654a961714e3c36fe1b3783610e38436216efa06724",
+      "diagnostics": {
+        "calibration": {
+          "class_counts": [
+            8,
+            16
+          ],
+          "groups": 15,
+          "n": 24,
+          "objective": 0.6191339286160743,
+          "oof_labels": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "oof_predictions": [
+            0.532539129224233,
+            0.6401271036963863,
+            0.5801936993160837,
+            0.5840636627253559,
+            0.6381511112675184,
+            0.5159824766431527,
+            0.526734402817965,
+            0.6587316658236659,
+            0.5000130830648607,
+            0.5380463300861038,
+            0.6557519469811837,
+            0.5877919582970605,
+            0.4100820999966004,
+            0.4597567283470312,
+            0.4100820999966004,
+            0.4100820999966004,
+            0.5522965848376913,
+            0.4597567283470312,
+            0.4998113207659596,
+            0.5020804074569849,
+            0.500484466239078,
+            0.5000212651648653,
+            0.5032633810993588,
+            0.644496635765961
+          ],
+          "reason": "OBSERVED_SUPPORT"
+        },
+        "calibration_folds": [
+          {
+            "model_diagnostics": {
+              "class_counts": [
+                5,
+                10
+              ],
+              "status": "FIT",
+              "warnings": []
+            },
+            "train_groups": [
+              "citrine-component-001",
+              "citrine-component-002",
+              "citrine-component-003",
+              "citrine-component-008",
+              "citrine-component-010",
+              "citrine-component-011",
+              "citrine-component-017",
+              "citrine-component-019",
+              "citrine-component-027",
+              "citrine-component-028"
+            ],
+            "train_ids": [
+              "citrine-ba59e15398509278",
+              "citrine-07328bd10b374dc4",
+              "citrine-68125b93f9a49e37",
+              "citrine-496808713338c50a",
+              "citrine-32588fd62eaf4f58",
+              "citrine-436f64bb43780844",
+              "citrine-0fe2ad52c7826342",
+              "citrine-984d543783708501",
+              "citrine-c1bd5b6f17d1186d",
+              "citrine-ec079712baac704b",
+              "citrine-ffd84f02345828a9",
+              "citrine-6f7d2d456d50d6ef",
+              "citrine-4498e48c80e2db93",
+              "citrine-3bd2fe9df2f49659",
+              "citrine-ce16a2b057a0a026"
+            ],
+            "validation_groups": [
+              "citrine-component-005",
+              "citrine-component-009",
+              "citrine-component-016",
+              "citrine-component-021",
+              "citrine-component-029"
+            ],
+            "validation_ids": [
+              "citrine-85e4ecafca343998",
+              "citrine-1da54d250f7c915b",
+              "citrine-3a6e07d3bf279a9f",
+              "citrine-49c01288ff5550d4",
+              "citrine-c11acf7548ff0c47",
+              "citrine-f2318153c0a541ca",
+              "citrine-8e1ba0cbb9c379b7",
+              "citrine-62294e1c8c88eb6c",
+              "citrine-7ed448827854a586"
+            ]
+          },
+          {
+            "model_diagnostics": {
+              "class_counts": [
+                6,
+                11
+              ],
+              "status": "FIT",
+              "warnings": []
+            },
+            "train_groups": [
+              "citrine-component-001",
+              "citrine-component-002",
+              "citrine-component-005",
+              "citrine-component-008",
+              "citrine-component-009",
+              "citrine-component-011",
+              "citrine-component-016",
+              "citrine-component-017",
+              "citrine-component-021",
+              "citrine-component-029"
+            ],
+            "train_ids": [
+              "citrine-07328bd10b374dc4",
+              "citrine-68125b93f9a49e37",
+              "citrine-85e4ecafca343998",
+              "citrine-496808713338c50a",
+              "citrine-32588fd62eaf4f58",
+              "citrine-436f64bb43780844",
+              "citrine-c1bd5b6f17d1186d",
+              "citrine-1da54d250f7c915b",
+              "citrine-3a6e07d3bf279a9f",
+              "citrine-ffd84f02345828a9",
+              "citrine-49c01288ff5550d4",
+              "citrine-c11acf7548ff0c47",
+              "citrine-4498e48c80e2db93",
+              "citrine-f2318153c0a541ca",
+              "citrine-8e1ba0cbb9c379b7",
+              "citrine-62294e1c8c88eb6c",
+              "citrine-7ed448827854a586"
+            ],
+            "validation_groups": [
+              "citrine-component-003",
+              "citrine-component-010",
+              "citrine-component-019",
+              "citrine-component-027",
+              "citrine-component-028"
+            ],
+            "validation_ids": [
+              "citrine-ba59e15398509278",
+              "citrine-0fe2ad52c7826342",
+              "citrine-984d543783708501",
+              "citrine-ec079712baac704b",
+              "citrine-6f7d2d456d50d6ef",
+              "citrine-3bd2fe9df2f49659",
+              "citrine-ce16a2b057a0a026"
+            ]
+          },
+          {
+            "model_diagnostics": {
+              "class_counts": [
+                5,
+                11
+              ],
+              "status": "FIT",
+              "warnings": []
+            },
+            "train_groups": [
+              "citrine-component-003",
+              "citrine-component-005",
+              "citrine-component-009",
+              "citrine-component-010",
+              "citrine-component-016",
+              "citrine-component-019",
+              "citrine-component-021",
+              "citrine-component-027",
+              "citrine-component-028",
+              "citrine-component-029"
+            ],
+            "train_ids": [
+              "citrine-ba59e15398509278",
+              "citrine-85e4ecafca343998",
+              "citrine-0fe2ad52c7826342",
+              "citrine-984d543783708501",
+              "citrine-ec079712baac704b",
+              "citrine-1da54d250f7c915b",
+              "citrine-3a6e07d3bf279a9f",
+              "citrine-49c01288ff5550d4",
+              "citrine-c11acf7548ff0c47",
+              "citrine-6f7d2d456d50d6ef",
+              "citrine-f2318153c0a541ca",
+              "citrine-8e1ba0cbb9c379b7",
+              "citrine-62294e1c8c88eb6c",
+              "citrine-3bd2fe9df2f49659",
+              "citrine-7ed448827854a586",
+              "citrine-ce16a2b057a0a026"
+            ],
+            "validation_groups": [
+              "citrine-component-001",
+              "citrine-component-002",
+              "citrine-component-008",
+              "citrine-component-011",
+              "citrine-component-017"
+            ],
+            "validation_ids": [
+              "citrine-07328bd10b374dc4",
+              "citrine-68125b93f9a49e37",
+              "citrine-496808713338c50a",
+              "citrine-32588fd62eaf4f58",
+              "citrine-436f64bb43780844",
+              "citrine-c1bd5b6f17d1186d",
+              "citrine-ffd84f02345828a9",
+              "citrine-4498e48c80e2db93"
+            ]
+          }
+        ],
+        "feasibility": {
+          "class_counts": [
+            8,
+            16
+          ],
+          "status": "FIT",
+          "warnings": []
+        },
+        "fit_seconds": 0.013091225999232847,
+        "observed_groups": [
+          "citrine-component-027",
+          "citrine-component-001",
+          "citrine-component-017",
+          "citrine-component-005",
+          "citrine-component-001",
+          "citrine-component-008",
+          "citrine-component-002",
+          "citrine-component-003",
+          "citrine-component-010",
+          "citrine-component-008",
+          "citrine-component-028",
+          "citrine-component-005",
+          "citrine-component-009",
+          "citrine-component-011",
+          "citrine-component-009",
+          "citrine-component-009",
+          "citrine-component-019",
+          "citrine-component-011",
+          "citrine-component-029",
+          "citrine-component-021",
+          "citrine-component-016",
+          "citrine-component-010",
+          "citrine-component-005",
+          "citrine-component-028"
+        ],
+        "observed_ids": [
+          "citrine-ba59e15398509278",
+          "citrine-07328bd10b374dc4",
+          "citrine-68125b93f9a49e37",
+          "citrine-85e4ecafca343998",
+          "citrine-496808713338c50a",
+          "citrine-32588fd62eaf4f58",
+          "citrine-436f64bb43780844",
+          "citrine-0fe2ad52c7826342",
+          "citrine-984d543783708501",
+          "citrine-c1bd5b6f17d1186d",
+          "citrine-ec079712baac704b",
+          "citrine-1da54d250f7c915b",
+          "citrine-3a6e07d3bf279a9f",
+          "citrine-ffd84f02345828a9",
+          "citrine-49c01288ff5550d4",
+          "citrine-c11acf7548ff0c47",
+          "citrine-6f7d2d456d50d6ef",
+          "citrine-4498e48c80e2db93",
+          "citrine-f2318153c0a541ca",
+          "citrine-8e1ba0cbb9c379b7",
+          "citrine-62294e1c8c88eb6c",
+          "citrine-3bd2fe9df2f49659",
+          "citrine-7ed448827854a586",
+          "citrine-ce16a2b057a0a026"
+        ],
+        "strength": {
+          "kernel": "0.885**2 * Matern(length_scale=1.48, nu=2.5)",
+          "noise_mpa": 25.0,
+          "optimizer": [
+            {
+              "iterations": 5,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "success": true
+            }
+          ],
+          "status": "FIT",
+          "warnings": []
+        }
+      },
+      "expected_improvement_mpa": 40.52433008335296,
+      "feasibility_probability_calibrated": 0.5257384495738966,
+      "feasibility_probability_raw": 0.5154789531117032,
+      "feasible": true,
+      "feature_status": "PUBLISHED_ATOMIC_FRACTIONS_COMPOSITION_ONLY",
+      "measured_elongation_percent": 13.3,
+      "measured_strength_mpa": 482.0,
+      "mode": "FEASIBLE_STRENGTH_IMPROVEMENT",
+      "nearest_observed_composition_distance": 0.40884034660265633,
+      "observed_count": 24,
+      "policy_name": "rc_cbo",
+      "raw_winner": "citrine-35a932c9bf44eb8f",
+      "seed": 0,
+      "selection_step": 13,
+      "strength_latent_std_mpa": 300.06345217467606,
+      "strength_mean_mpa": 572.0395772571138,
+      "strength_observation_interval_mpa": [
+        -18.122493865309707,
+        1162.2016483795373
+      ],
+      "strength_observation_std_mpa": 301.1030975114406,
+      "temperature": 0.6010546370390162
+    }
+  },
+  "representative_standard_bo_failure": {
+    "acquisition_score": 8.893508599223027,
+    "calibrated_winner": "citrine-629bf58b4031345c",
+    "calibration_status": "NOT_APPLIED",
+    "case_id": "citrine-629bf58b4031345c",
+    "composition_features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.2,
+      0.0,
+      0.0,
+      0.2,
+      0.0,
+      0.0,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "config_hash": "0d7938858f175c854f1555f88ba0dc983cdff22c505f00bba742d7db50de5011",
+    "constrained_expected_improvement_mpa": 3.6832373242116896,
+    "dataset_hash": "9cdedf8fae3154c9d66b5654a961714e3c36fe1b3783610e38436216efa06724",
+    "diagnostics": {
+      "calibration": {},
+      "calibration_folds": [],
+      "feasibility": {
+        "class_counts": [
+          4,
+          15
+        ],
+        "status": "FIT",
+        "warnings": []
+      },
+      "fit_seconds": 0.026482237999516656,
+      "observed_groups": [
+        "citrine-component-006",
+        "citrine-component-021",
+        "citrine-component-004",
+        "citrine-component-020",
+        "citrine-component-014",
+        "citrine-component-002",
+        "citrine-component-020",
+        "citrine-component-002",
+        "citrine-component-023",
+        "citrine-component-024",
+        "citrine-component-015",
+        "citrine-component-005",
+        "citrine-component-028",
+        "citrine-component-016",
+        "citrine-component-000",
+        "citrine-component-000",
+        "citrine-component-008",
+        "citrine-component-004",
+        "citrine-component-004"
+      ],
+      "observed_ids": [
+        "citrine-2446b2ea749d4292",
+        "citrine-8e1ba0cbb9c379b7",
+        "citrine-f8536a4e34b413d5",
+        "citrine-85f0f5636bad251d",
+        "citrine-95fba8d80c4a59d5",
+        "citrine-436f64bb43780844",
+        "citrine-d64545c02eb143b0",
+        "citrine-09daf842c91c29f7",
+        "citrine-91f01f006d9ec139",
+        "citrine-9f2b949c3e455da6",
+        "citrine-5ab563445edb45a6",
+        "citrine-281e9ef2f3f21504",
+        "citrine-ce16a2b057a0a026",
+        "citrine-62294e1c8c88eb6c",
+        "citrine-804d376f4560b6c5",
+        "citrine-1f66a56f1b96d57c",
+        "citrine-c1bd5b6f17d1186d",
+        "citrine-4a355570b844dd26",
+        "citrine-35a932c9bf44eb8f"
+      ],
+      "strength": {
+        "kernel": "1.42**2 * Matern(length_scale=0.3, nu=2.5)",
+        "noise_mpa": 25.0,
+        "optimizer": [
+          {
+            "iterations": 7,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        ],
+        "status": "FIT",
+        "warnings": [
+          "The optimal value found for dimension 0 of parameter k2__length_scale is close to the specified lower bound 0.3. Decreasing the bound and calling fit again may find a better value."
+        ]
+      }
+    },
+    "expected_improvement_mpa": 8.893508599223027,
+    "feasibility_probability_calibrated": 0.4141489585486511,
+    "feasibility_probability_raw": 0.4141489585486511,
+    "feasible": false,
+    "feature_status": "PUBLISHED_ATOMIC_FRACTIONS_COMPOSITION_ONLY",
+    "measured_elongation_percent": 4.7,
+    "measured_strength_mpa": 1202.0,
+    "mode": "STRENGTH_IMPROVEMENT",
+    "nearest_observed_composition_distance": 0.0,
+    "observed_count": 19,
+    "policy_name": "strength_bo",
+    "raw_winner": "citrine-629bf58b4031345c",
+    "seed": 23,
+    "selection_step": 8,
+    "strength_latent_std_mpa": 24.977861505593477,
+    "strength_mean_mpa": 1897.7788197145242,
+    "strength_observation_interval_mpa": [
+      1828.5130307504746,
+      1967.0446086785737
+    ],
+    "strength_observation_std_mpa": 35.339688246964045,
+    "temperature": 1.0
+  },
+  "interpretation": "Posthoc descriptive diagnosis only; no model/protocol adjustment."
+}

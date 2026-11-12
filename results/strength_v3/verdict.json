@@ -1,0 +1,28 @@
+{
+  "research_verdict": "BLOCKED_PRIMARY_SCIENTIFIC_EVALUATION_G1B",
+  "software_pipeline_executable": true,
+  "G1a": "COMPLETE_USER_VERIFIED_PROVENANCE_AND_LOCAL_INTEGRITY",
+  "G1b": "BLOCKED_NO_SUFFICIENT_SOURCE_QUALIFIED_COHORT",
+  "G2": "PASSED_SOFTWARE_ONLY",
+  "G3": "PASSED_SOFTWARE_ONLY",
+  "G4": "PASSED_SOFTWARE_ONLY",
+  "G5": "NOT_FROZEN_G1B_REQUIRED",
+  "G6": "FINAL_COMPARISON_NOT_RUN",
+  "G7": "SCIENTIFIC_EFFICACY_NOT_EVALUATED",
+  "G8": "SOFTWARE_DOCUMENTED_FINAL_RESEARCH_INCOMPLETE",
+  "qualified_independent_cases": 0,
+  "qualified_class_counts": [
+    0,
+    0
+  ],
+  "provisional_record_count": 453,
+  "provisional_class_counts": [
+    114,
+    339
+  ],
+  "tests_passed": 72,
+  "provisional_reproduction_verified": true,
+  "final_frozen_protocol_created": false,
+  "primary_benchmark_results_exist": false,
+  "reason": "No accessed primary-source evidence establishes a sufficient independent cohort with known tensile test temperature and material-state pairing. Dataset-level provenance is resolved and does not block software development."
+}

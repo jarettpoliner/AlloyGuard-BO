@@ -1,0 +1,26 @@
+{
+  "warnings": {
+    "The optimal value found for dimension 0 of parameter k2__length_scale is close to the specified upper bound 6.0. Increasing the bound and calling fit again may find a better value.": 15,
+    "The optimal value found for dimension 0 of parameter k2__length_scale is close to the specified lower bound 0.3. Decreasing the bound and calling fit again may find a better value.": 852
+  },
+  "feasibility_fit_status_counts": {
+    "FIT": 1800
+  },
+  "calibration_status_counts": {
+    "CALIBRATION_INSUFFICIENT_DATA": 256,
+    "CALIBRATION_ACTIVE": 194
+  },
+  "optimizer_non_successes": 0,
+  "rc_raw_vs_cal_same_selected_cases_brier": {
+    "raw": 0.22299756466997936,
+    "calibrated": 0.2192157582225103
+  },
+  "ranking_changes": 25,
+  "fit_warnings_interpretation": "Conservative kernel bounds can be optimal with small-sample/noisy composition-only modeling; warnings retained, no result-based bound changes.",
+  "discrimination_selected_forecasts": {
+    "random": 0.6317225723876453,
+    "strength_bo": 0.5873330034636318,
+    "cbo": 0.6785590428298943,
+    "rc_cbo": 0.6695506619421316
+  }
+}

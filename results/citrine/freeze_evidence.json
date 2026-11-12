@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN_BEFORE_PRIMARY",
+  "config_hash": "0d7938858f175c854f1555f88ba0dc983cdff22c505f00bba742d7db50de5011",
+  "cohort_hash": "9cdedf8fae3154c9d66b5654a961714e3c36fe1b3783610e38436216efa06724",
+  "model_source_hash": "6abc50d8d407f504c864807c9ac8d263b5607f23bbfbcac6a96529e59ab5ffbd",
+  "adapter_hash": "00d34388d62cfe8408d90d843db74b90309557561ac10f5370b33f0b662f9c38",
+  "pre_freeze_test_count": 91,
+  "primary_run_existed_at_freeze": false,
+  "interpretation_scope": "EXPLORATORY_RETROSPECTIVE_PUBLISHED_DATA_REPLAY"
+}
